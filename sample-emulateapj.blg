@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sample-emulateapj.aux
+The style file: ApJ.bst
+Database file #1: sample-emulateapjNotes.bib
+Database file #2: biblio.bib
+Repeated entry---line 1224 of file biblio.bib
+ : @article{brinchmann04
+ :                      ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 46 entries,
+            3085 wiz_defined-function locations,
+            1020 strings with 18732 characters,
+and the built_in function-call counts, 25489 in all, are:
+= -- 1930
+> -- 2318
+< -- 8
++ -- 780
+- -- 848
+* -- 2390
+:= -- 4935
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 338
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 869
+empty$ -- 1290
+format.name$ -- 886
+if$ -- 4912
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 142
+num.names$ -- 184
+pop$ -- 372
+preamble$ -- 1
+purify$ -- 338
+quote$ -- 0
+skip$ -- 705
+stack$ -- 0
+substring$ -- 962
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 414
+warning$ -- 0
+while$ -- 173
+width$ -- 0
+write$ -- 463
+(There was 1 error message)
