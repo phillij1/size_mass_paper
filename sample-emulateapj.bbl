@@ -39,6 +39,9 @@
 \bibitem[{{Bruzual} \& {Charlot}(2003)}]{BC03}
 {Bruzual}, G., \& {Charlot}, S. 2003, \mnras, 344, 1000
 
+\bibitem[{{Cicone} {et~al.}(2016){Cicone}, {Maiolino}, \& {Marconi}}]{Cicone16}
+{Cicone}, C., {Maiolino}, R., \& {Marconi}, A. 2016, \aap, 588, A41
+
 \bibitem[{{de Blok} {et~al.}(2008){de Blok}, {Walter}, {Brinks},
   {Trachternach}, {Oh}, \& {Kennicutt}}]{deblok08}
 {de Blok}, W.~J.~G., {Walter}, F., {Brinks}, E., {et~al.} 2008, \aj, 136, 2648
@@ -49,6 +52,10 @@
 \bibitem[{{El-Badry} {et~al.}(2016){El-Badry}, {Wetzel}, {Geha}, {Hopkins},
   {Kere{\v s}}, {Chan}, \& {Faucher-Gigu{\`e}re}}]{EB17}
 {El-Badry}, K., {Wetzel}, A., {Geha}, M., {et~al.} 2016, \apj, 820, 131
+
+\bibitem[{{El-Badry} {et~al.}(2017){El-Badry}, {Wetzel}, {Geha}, {Quataert},
+  {Hopkins}, {Kere{\v s}}, {Chan}, \& {Faucher-Gigu{\`e}re}}]{El-Badry17}
+{El-Badry}, K., {Wetzel}, A.~R., {Geha}, M., {et~al.} 2017, \apj, 835, 193
 
 \bibitem[{{Elbert} {et~al.}(2015){Elbert}, {Bullock}, {Garrison-Kimmel},
   {Rocha}, {O{\~n}orbe}, \& {Peter}}]{Elbert14}

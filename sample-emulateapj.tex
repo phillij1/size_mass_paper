@@ -286,16 +286,38 @@ $$\Delta M_{\star} = 1 \times 10^6 M_{\odot} \times \frac{SFR}{0.062 M_{\odot}/y
 
 The IMF allows us to connect the amount of star formation in a burst to the amount of supernova feedback produced by that burst. Under a Kroupa IMF \citep{Kroupa02}, we expect one Type II supernova for every 100 solar masses in stars formed, meaning that a single burst in a dwarf galaxy produces some $10^4$ Type II supernova. Given that the average energy output of a Type II supernova is $10^{51}$ erg, the total energy output during a single burst is $10^{55}$ erg. In order to produce $10^9 M_{\odot}$ of solar mass, the galaxy must have gone through $10^3$ cycles, thereby producing $10^{55}$ erg of supernova energy in the process. The energetic argument presented in the above paragraph is true independent of whether the stars are formed constantly or in bursts. However, as several authors \citep{Governato12,GK13} have argued, the ``bursty'' mode of star formation can produce a positive feedback cycle, where the the efficiency of subsequent bursts increases from the initial burst. This also explains why more massive galaxies have cuspy profiles despite producing more supernova feedback; their star formation histories are less bursty \citep{Guo16}, so the feedback which drives us the average efficiency is not present.
 
+\subsection{Comparisons to Simulations}
+
+Hydrodynamical simulations whereby galaxy growth is regulated through burst-driven radial transport make a number of specific, testable predictions of galaxy observables. We divide our discussion of these predictions into two sections: predictions concerning galaxy dynamics, which primarily concerns the work of \cite{Cicone16}, and predictions concerning galaxy structure, which primarily concerns this work.
+
+The burst-driven transport model of galaxy self-regulation requires that feedback not just couple to the gas in a galaxy, but also to the stellar component. As a result, the stars are kinematically heated, resulting in an increased line of sight velocity dispersion. \cite{El-Badry17} makes this prediction explicit, demonstrating a correlation between $\sigma_{LOS}$ and specific star formation rate for star particles in the final 40 snapshots of one dwarf galaxy halo. Under the assumption that the evolution of this single halo is an ergodic process, this supplies a prediction for the population of dwarf galaxies at low redshift.
+
+These predictions are borne out by the analysis of \cite{Cicone16}, which uses stacked SDSS spectra to examine the profiles of nebular emission lines and stellar absorption lines, constraining the dynamics of galactic gas and stars respectively. They finds that, for dwarf galaxies, the width of stellar absorption lines increases with increasing specific star formation rate, consistent with the predictions of \cite{El-Badry17}. Furthermore, they find that this trend disappears above stellar masses of $32wee010^{9.5} M_{\odot}$, consistent002300 with the prediction that burst-driven transport only operates at dwarf mass scales.
+
+We can also compare the trends with size that we have explored in this work to predictions from hydrodynamical simulations. In Figure \ref{fig:predict}, we overplot the final 40 snapshots from a dwarf galaxy in the fire simulation with galaxies from our lowest-mass bin ($10^{8.5}-10^{9.0} M_{\odot}$) in specific star formation rate/size space. Again, we emphasize that since the simulated galaxies evolve in this space, the points traced by the galaxy in the simulation make a prediction for galaxies sampled in the real Universe. We see excellent agreement between the predictions made by the simulation and our observed relationship between specific star formation rate and size. There is significantly more scatter in the observed relation than the simulation results, which is a natural result of comparing an ensemble of galaxies with a single simulated object, but the overall agreement between simulations and data is striking. Taken together, these two observational confirmations of simulation predictions provide strong evidence that burst-driven radial transport is occuring in dwarf galaxies.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+	\centering
+	\includegraphics[width=1.5 \columnwidth]{111_dwarf_85_size_SF_r.png}
+	\caption{Star formation rate plotted against size for galaxies in our lowest mass bin. Overplotted are points from the last 40 snapshots of a dwarf galaxy in the FIRE simulation that is undergoing self-regulation via burst-driven radial transport. The data is in excellent agreement with the predictions from the simulations}
+	\label{fig:predict}
+	
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
 \section{Conclusion}
 
 Our study primarily examines the relationship between the physical size of a galaxy and it's star formation properties. We show the following,
 
 \begin{itemize}
-\item Dwarf galaxies with smaller size tend to have higher levels of $H\alpha$ emission. Larger galaxies have lower levels of $H\alpha$ emission. This trend goes away in more massive galaxies.
+\item Dwarf galaxies with smaller size tend to have higher levels of $H\alpha$ emission. Larger galaxies have lower levels of $H\alpha$ emission. This trend goes away in more massive galaxies. 
 
 \item $H\alpha$ surface density is consistent with a power law with respect to radii in the inner regions of all galaxies at all masses, however in dwarf galaxies, the outer regions have $H\alpha$ emission consistent with zero.
 
-\item Taken together, these results paint a picture of dwarf galaxies experience cycles of star formation, where dense star formation in the central regions drives blowouts that self-regulate galaxy growth. The energy of the blowouts couples to the stars, leading to dwarf galaxies in their blowout phase being larger on the sky in the $r$ band. This apparent coupling to stars, and not just gas, could indicate coupling to dark matter as well.
+\item Taken together, these results paint a picture of dwarf galaxies experience cycles of star formation, where dense star formation in the central regions drives blowouts that self-regulate galaxy growth. Furthermore, our results are in strong agreement with simulations that exhibit such blowouts. The energy of the blowouts couples to the stars, leading to dwarf galaxies in their blowout phase being larger on the sky in the $r$ band. This apparent coupling to stars, and not just gas, could indicate coupling to dark matter as well.
 
 \end{itemize}
 
