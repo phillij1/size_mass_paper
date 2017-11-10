@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 NOV 2017 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 NOV 2017 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -392,22 +392,22 @@ Underfull \hbox (badness 1430) in paragraph at lines 293--294
 File: 111_dwarf_85_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_85_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_85_size_SF_r.png used on input line 302.
+Package pdftex.def Info: 111_dwarf_85_size_SF_r.png used on input line 304.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 314.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 316.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 314.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 316.
 
-(./sample-emulateapj.bbl) [10]
+(./sample-emulateapj.bbl [10])
 <HA_EW_compare.png, id=76, 1203.49625pt x 1194.4625pt>
 File: HA_EW_compare.png Graphic file (type png)
  <use HA_EW_compare.png>
-Package pdftex.def Info: HA_EW_compare.png used on input line 342.
+Package pdftex.def Info: HA_EW_compare.png used on input line 344.
 (pdftex.def)             Requested size: 513.11743pt x 509.2893pt.
 
 [11 <./111_dwarf_85_size_SF_r.png>] [12 <./HA_EW_compare.png>]
@@ -419,11 +419,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4573 strings out of 493014
  61609 string characters out of 6133351
- 189782 words of memory out of 5000000
+ 153171 words of memory out of 5000000
  8036 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,28p,1663b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,28p,1663b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -444,7 +444,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample-emulateapj.pdf (12 pages, 1282773 bytes).
+Output written on sample-emulateapj.pdf (12 pages, 1283703 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
