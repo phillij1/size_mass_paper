@@ -115,18 +115,18 @@ We also put together a sample that would be used to calibrate the fiber correcti
 \label{sec:fibercor}
 SDSS spectroscopy is based on light being channeled into fibers $3"$ in diameter. Because most of our galaxies are larger than 3", we must correct measured values for contributions lying outside the fiber. Typical methods for fiber correction require assuming that the inner regions of the galaxy are suitably similar to the outer regions; however we wish to refrain from making this assumption. We will later compare our fiber correction results to those following the methodology of e.g. \cite{Brinchmann04} and \cite{Salim07}.
 
-Our correction begins by defining a parameter $\Psi$ that corresponds to the fraction of a galaxy's area on the sky that lies within the fiber. For galaxies smaller than 3", $\Psi = 1$. For larger galaxies, $\Psi = \frac{\pi R^2}{A_z}$, where R is the circularized radius of the galaxy measured in kpc (taken to be R90 so as to account for nearly all light from the galaxy) and $A_z$ is the area of a circle of diameter 3" at the redshift of the galaxy under consideration. If we are correcting some parameter $\Theta$, e.g. star formation rate, we assume that the correction will take the form $$\Theta_{total} = \Theta_{fiber} \times \Psi^{-\alpha}$$ where $\alpha$ is an power law that we derive empirically according to the following procedure.
+Our correction begins by defining a parameter $\Psi$ that corresponds to the fraction of a galaxy's area on the sky that lies within the fiber. For galaxies smaller than 3", $\Psi = 1$. For larger galaxies, $\Psi = \frac{\pi R^2}{A_z}$, where R is the circularized radius of the galaxy measured in kpc (taken to be R90 so as to account for nearly all light from the galaxy) and $A_z$ is the area of a circle of diameter 3" at the redshift of the galaxy. Figure \ref{fig:geo} shows $\Psi$ plotted against galaxy radius for galaxies in our $10^{9.5}-10^{10.0}$ bin. Notice that, as one might expect, larger galaxies tend to have more of their area fall outside out the fiber, leading to lower values of $\Psi$. The selection effect in the upper right portion of the plot is introduced by the redshift cut we place on the sample. If we are carrying out a correction on some parameter $\Theta$, which could represent e.g. $H_{\alpha}$ luminosity, etc., we assume that the correction will take the form $$\Theta_{total} = \Theta_{fiber} \times \Psi^{-\alpha}$$ where $\alpha$ is an power law that we derive empirically.
 
-In calculating $\alpha$, our goal is to match the measurement made on the science sample to a suitably similar comparison sample made at slightly higher redshift. This comparison set is selected to be at higher redshift so that galaxies are smaller, but not high enough that evolutionary effects must be accounted for. At this higher redshift we identify all objects that have measured diameters less than 3", but which would have diameters greater than 3" were they at the angular diameter distance of the scientific sample. Correspondingly, in the scientific sample we identify all objects that have measured diameters greater than 3", but would have diameters less than 3" at the angular diameter distance of the comparison set. These subsamples will be referred to as the high-z and low-z "calibration set." Since the low-z calibration set members are larger than the fiber, the quantity we measure is $\Theta_{fiber}$. The high-z calibration set, being selected to fall entirely within the fiber, probes $\Theta_{total}$. From here, we apply the correction given by Equation (1) to the low-z calibration set, such that the median $\Theta_{total}$ matches the median corrected $\Theta_{fiber}$. 
+In calculating $\alpha$, our goal is to match the measurements made lower redshift half of the science sample to that made on the higher redshift half of the science sample. This comparison across redshift space such that galaxies are at higher redshift are smaller on the sky, but not high enough that evolutionary effects must be accounted for. Since we neglect any potential evolutionary effects, we make the assumption that the fiber correction necessary at higher redshift takes the same form as the one at lower redshift. We will call the measured value of the parameter of interest $\Theta_{fiber}$ in each redshift bin. From here, we apply the correction given by Equation (1) to both the high-z and low-z calibration sets, and alpha is defined such that $$<\Theta_{fiber,lowz} \times \Psi_{lowz}^{-\alpha}> = <\Theta_{fiber,highz} \times \Psi_{highz}^{-\alpha}>$$.
 
-As a check, we applied the same aperture corrections to the full comparison sample, from which the high-z calibration set was drawn. In Figure \ref{fig:check}, we plot the uncorrected and corrected $H\alpha$ equivalent width in the scientific sample alongside the corrected $H\alpha$ equivalent width from the high-z comparison sample. We see good agreement in the corrected results at the different redshifts, suggesting that the correction made was appropriate and not biased by redshift or by the size cuts made to select the calibration sets.
+These steps are illustrated in Figure \ref{fig:steps}. The left two panels show the measured (uncorrected) $\rm H_{\alpha}$ luminosity in the low redshift and high redshift subsamples. The third panel overplots the low and high redshift measurements, and the fourth panel shows how the correction modifies the measurements such that they agree, overplotting the corrected values. 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1 \columnwidth]{geometry_10_0.png}
+	\includegraphics[width=1 \columnwidth]{geometry_9_5.png}
 	\caption{Geometric parameter $\Psi$ plotted vs. physical size for galaxies in the $10^{10} - 10^{10.5} M_{\odot}$ mass bin. $\Psi$ measures the fraction of the galaxy that falls within the SDSS fiber. The selection effect arises due to the cut in redshift space.}
      \label{fig:geo}
 
@@ -136,7 +136,7 @@ As a check, we applied the same aperture corrections to the full comparison samp
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=2 \columnwidth]{steps_10_0.png}
+	\includegraphics[width=2 \columnwidth]{steps_9_5.png}
 	\caption{Figure explaining the steps involved in our aperture correction method. (1) Low z calibration set (large points) plotted alongside the scientific sample. (2) High z calibration set(large points) plotted alongside the higher z sample from which the calibration set was drawn. (3) Low z and High z calibration sets plotted together before correction. (4) Low z and High z calibration sets plotted together after correction.}
      \label{fig:steps}
 
@@ -146,23 +146,13 @@ As a check, we applied the same aperture corrections to the full comparison samp
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1 \columnwidth]{hist_10_0.png}
+	\includegraphics[width=1 \columnwidth]{hist_9_5.png}
 	\caption{Histogram of $H\alpha$ equivalent widths for the uncorrected low z calibration set (dashed red line), the corrected low z calibration set (solid red line), and the high z calibration set (solid black line), which is selected to require no correction.}
      \label{fig:hist}
 
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
-	\centering
-	\includegraphics[width=2 \columnwidth]{all_corrected_10_0.png}
-	\caption{$H\alpha$ equivalent width verusus physical size for the uncorrected scientific sample, the corrected scientific sample, against the high z sample subject to the same correction. We see good agreement in the corrected sample between low and high redshift, which is what we would expect if the we were correctly accounting for aperture effects.}
-     \label{fig:check}
-
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
 \section{Results}
@@ -181,21 +171,42 @@ In Figure \ref{fig:HA_lum}, we reproduce the lower two panels in Figure \ref{fig
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1.5 \columnwidth]{HA_EW.png}
-	\caption{Relationship between $H\alpha$ equivalent width and size offset, defined as the excess size compared to the mass-size relationship. }
-     \label{fig:HA_EW}
+	\includegraphics[width=1.5 \columnwidth]{ha_ew_2x2.png}
+	\caption{Relationship between $H\alpha$ luminosity and size offset. }
+	\label{fig:HA_ew}
+	
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\includegraphics[width= \columnwidth]{ratios_ha_ew.png}
+	\caption{Relationship between the log difference in $H\alpha$ luminosity between large and small radius galaxies and stellar mass. }
+	\label{fig:HA_ew_mass}
+	
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+	\centering
+	\includegraphics[width=1.5 \columnwidth]{ha_lum_2x2.png}
+	\caption{Relationship between $H\alpha$ luminosity and size offset. }
+     \label{fig:HA_lum}
 
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
+\begin{figure}
 	\centering
-	\includegraphics[width=1.5 \columnwidth]{HA_LUM.png}
-	\caption{Relationship between $H\alpha$ luminosity and size offset. }
-     \label{fig:HA_lum}
-
-\end{figure*}
+	\includegraphics[width= \columnwidth]{ratios_ha_lum.png}
+	\caption{Relationship between the log difference in $H\alpha$ luminosity between large and small radius galaxies and stellar mass. }
+	\label{fig:HA_lum_mass}
+	
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -223,19 +234,9 @@ Figure \ref{fig:grad_lum} tells much the same story. At low radii (below $log R 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1.5 \columnwidth]{gradients_HA.png}
-	\caption{Average radial gradients in $H\alpha$ equivalent width in a total (left panel) and differential (right panel) sense. }
+	\includegraphics[width= \columnwidth]{gradients_HA.png}
+	\caption{Average $H\alpha$ luminosity profile for galaxies in four different mass bins. Each individual galaxy contributes twice to the plot: once at the fiber radius, and once at the galaxy radius.}
      \label{fig:grad_EW}
-
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
-	\centering
-	\includegraphics[width=1.5 \columnwidth]{gradients_HA_Lum.png}
-	\caption{Average radial gradients in $H\alpha$ equivalent width in a total (left panel) and differential (right panel) sense. }
-     \label{fig:grad_lum}
 
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -294,14 +295,14 @@ The burst-driven transport model of galaxy self-regulation requires that feedbac
 
 These predictions are borne out by the analysis of \cite{Cicone16}, which uses stacked SDSS spectra to examine the profiles of nebular emission lines and stellar absorption lines, constraining the dynamics of galactic gas and stars respectively. They finds that, for dwarf galaxies, the width of stellar absorption lines increases with increasing specific star formation rate, consistent with the predictions of \cite{El-Badry17}. Furthermore, they find that this trend disappears above stellar masses of $32wee010^{9.5} M_{\odot}$, consistent with the prediction that burst-driven transport only operates at dwarf mass scales.
 
-We can also compare the trends with size that we have explored in this work to predictions from hydrodynamical simulations. In Figure \ref{fig:predict}, we over plot the final 40 snapshots from a dwarf galaxy in the fire simulation with galaxies from our lowest-mass bin ($10^{8.5}-10^{9.0} M_{\odot}$) in specific star formation rate/size space. Again, we emphasize that since the simulated galaxies evolve in this space, the points traced by the galaxy in the simulation make a prediction for galaxies sampled in the real Universe. We see excellent agreement between the predictions made by the simulation and our observed relationship between specific star formation rate and size. There is significantly more scatter in the observed relation than the simulation results, which is a natural result of comparing an ensemble of galaxies with a single simulated object, but the overall agreement between simulations and data is striking. Taken together, these two observational confirmations of simulation predictions provide strong evidence that burst-driven radial transport is occuring in dwarf galaxies.
+We can also compare the trends with size that we have explored in this work to predictions from hydrodynamical simulations. In Figure \ref{fig:predict}, we over plot the final 40 snapshots from a dwarf galaxy in the fire simulation with galaxies from our lowest-mass bin ($10^{8.5}-10^{9.0} M_{\odot}$) in specific star formation rate/size space. Again, we emphasize that since the simulated galaxies evolve in this space, the points traced by the galaxy in the simulation make a prediction for galaxies sampled in the real Universe. We see excellent agreement between the predictions made by the simulation and our observed relationship between specific star formation rate and size. There is significantly more scatter in the observed relation than the simulation results, which is a natural result of comparing an ensemble of galaxies with a single simulated object, but the overall agreement between simulations and data is striking. Taken together, these two observational confirmations of simulation predictions provide strong evidence that burst-driven radial transport is occurring in dwarf galaxies.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1.5 \columnwidth]{111_dwarf_85_size_SF_r.png}
+	\includegraphics[width=1.5 \columnwidth]{111_dwarf_8_5_size_SF_r.png}
 	\caption{Star formation rate plotted against size for galaxies in our lowest mass bin. Overplotted are points from the last 40 snapshots of a dwarf galaxy in the FIRE simulation that is undergoing self-regulation via burst-driven radial transport. The data is in excellent agreement with the predictions from the simulations}
 	\label{fig:predict}
 	
