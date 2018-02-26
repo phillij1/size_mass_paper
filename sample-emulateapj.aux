@@ -36,7 +36,7 @@
 \citation{EB17}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Geometric parameter $\Psi $ plotted vs. physical size for galaxies in the $10^{10} - 10^{10.5} M_{\odot }$ mass bin. $\Psi $ measures the fraction of the galaxy that falls within the SDSS fiber. The selection effect arises due to the cut in redshift space.}}{4}{}}
 \newlabel{fig:geo}{{1}{4}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Figure explaining the steps involved in our aperture correction method. (1) Low z calibration set (large points) plotted alongside the scientific sample. (2) High z calibration set(large points) plotted alongside the higher z sample from which the calibration set was drawn. (3) Low z and High z calibration sets plotted together before correction. (4) Low z and High z calibration sets plotted together after correction.}}{4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The relationship between the geometric factor $\Psi $ measuring the ratio of a galaxy's size to the size of the SDSS fiber and the fiber $H_{\alpha }$ luminosity for galaxies in the $10^{9.5} - 10^{10} M_{\odot }$ bin. Knowing the average functional form of this relationship allows us to correct for fiber effects. Points marked with a blue triangle are at lower redshift than those marked with a red diamond}}{4}{}}
 \newlabel{fig:steps}{{2}{4}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Galaxy Size}{4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Histogram of $H\alpha $ equivalent widths for the uncorrected low z calibration set (dashed red line), the corrected low z calibration set (solid red line), and the high z calibration set (solid black line), which is selected to require no correction.}}{5}{}}
@@ -56,8 +56,6 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Duty Cycle and Energetics}{6}{}}
 \citation{Cicone16}
 \citation{El-Badry17}
-\citation{Cicone16}
-\citation{El-Badry17}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Relationship between $H\alpha $ luminosity and size offset. }}{7}{}}
 \newlabel{fig:HA_lum}{{6}{7}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Relationship between the log difference in $H\alpha $ luminosity between large and small radius galaxies and stellar mass. }}{7}{}}
@@ -69,6 +67,8 @@
 \newlabel{fig:grad_lum}{{9}{8}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Balmer decrement vs. size offset for dwarf galaxies.}}{9}{}}
 \newlabel{fig:bdvsize}{{10}{9}{}{}{}}
+\citation{Cicone16}
+\citation{El-Badry17}
 \bibdata{sample-emulateapjNotes,biblio}
 \bibcite{Balogh2000}{{1}{2000}{{{Balogh} {et~al.}}}{{{Balogh}, {Navarro}, \& {Morris}}}}
 \bibcite{Bastian10}{{2}{2010}{{{Bastian} {et~al.}}}{{{Bastian}, {Covey}, \& {Meyer}}}}
@@ -112,18 +112,14 @@
 \bibcite{Schroyen13}{{40}{2013}{{{Schroyen} {et~al.}}}{{{Schroyen}, {De Rijcke}, {Koleva}, {Cloet-Osselaer}, \& {Vandenbroucke}}}}
 \bibcite{Shivaei15}{{41}{2015}{{{Shivaei} {et~al.}}}{{{Shivaei}, {Reddy}, {Shapley}, {Kriek}, {Siana}, {Mobasher}, {Coil}, {Freeman}, {Sanders}, {Price}, {de Groot}, \& {Azadi}}}}
 \bibcite{Simon05}{{42}{2005}{{{Simon} {et~al.}}}{{{Simon}, {Bolatto}, {Leroy}, {Blitz}, \& {Gates}}}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{10}{}}
 \bibcite{Sparre17}{{43}{2017}{{{Sparre} {et~al.}}}{{{Sparre}, {Hayward}, {Feldmann}, {Faucher-Gigu{\`e}re}, {Muratov}, {Kere{\v s}}, \& {Hopkins}}}}
 \bibcite{Springel05}{{44}{2005}{{{Springel} {et~al.}}}{{{Springel}, {White}, {Jenkins}, {Frenk}, {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole}, {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}}}
 \bibcite{Stinson09}{{45}{2009}{{{Stinson} {et~al.}}}{{{Stinson}, {Dalcanton}, {Quinn}, {Gogarten}, {Kaufmann}, \& {Wadsley}}}}
 \bibcite{Sullivan00}{{46}{2000}{{{Sullivan} {et~al.}}}{{{Sullivan}, {Treyer}, {Ellis}, {Bridges}, {Milliard}, \& {Donas}}}}
 \bibcite{Wambsganss04}{{47}{2004}{{{Wambsganss} {et~al.}}}{{{Wambsganss}, {Bode}, \& {Ostriker}}}}
 \bibcite{SDSS}{{48}{2000}{{{York} {et~al.}}}{{{York}, {Adelman}, {Anderson}, {Anderson}, {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski}, {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey}, {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai}, {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms}, {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita}, {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes}, {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull}, {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim}, {Kinney}, {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt}, {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis}, {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon}, {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan}, {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino}, {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson}, {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn}, {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford}, {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund}, {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs}, {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe}, {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{10}{}}
-\citation{Brinchmann04}
-\citation{Salim07}
 \bibstyle{ApJ}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Star formation rate plotted against size for galaxies in our lowest mass bin. Overplotted are points from the last 40 snapshots of a dwarf galaxy in the FIRE simulation that is undergoing self-regulation via burst-driven radial transport. The data is in excellent agreement with the predictions from the simulations}}{11}{}}
 \newlabel{fig:predict}{{11}{11}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Comparison between photometrically-derived and spectroscopically-derived $\rm  H\alpha $ equivalent widths for galaxies in our science sample (see text for details). Blue contours are the $H\alpha $ within the fiber and red contours are total $H\alpha $. At low masses, the photometrically derived total $H\alpha $ is overestimated.}}{12}{}}
-\newlabel{fig:ccheck}{{12}{12}{}{}{}}
-\newlabel{LastPage}{{}{12}{}{}{}}
+\newlabel{LastPage}{{}{11}{}{}{}}

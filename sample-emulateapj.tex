@@ -119,7 +119,7 @@ Our correction begins by defining a parameter $\Psi$ that corresponds to the fra
 
 In calculating $\alpha$, our goal is to match the measurements made lower redshift half of the science sample to that made on the higher redshift half of the science sample. We will refer to these as the low redshift subsample and high redshift subsample\footnote{We use "high" redshift in a relative sense; all galaxies we consider in this paper are quite low redshift}. This comparison across redshift space is constructed such that galaxies are at higher redshift are smaller on the sky, but not high enough that evolutionary effects or incompleteness must be accounted for. Since we neglect any potential evolutionary effects, we make the assumption that the fiber correction made at higher redshift takes the same form as the one at lower redshift. We will call the measured value of the parameter of interest $\Theta_{fiber}$ in each redshift bin. From here, we apply the correction given by Equation (1) to both the high-z and low-z calibration sets, and alpha is defined such that $$<\Theta_{fiber,lowz} \times \Psi_{lowz}^{-\alpha}> = <\Theta_{fiber,highz} \times \Psi_{highz}^{-\alpha}>$$.
 
-These steps are illustrated in Figure \ref{fig:steps}. The left two panels show the measured (uncorrected) $\rm H_{\alpha}$ luminosity in the low redshift and high redshift subsamples. The third panel overplots the low and high redshift measurements, and the fourth panel shows how the correction modifies the measurements such that they agree, overplotting the corrected values. Figure \ref{fig:hist} summarizes the process in a histogram. The dashed red and black lines show the distributions in $H_{\alpha}$ luminosity prior to correction in the low and high redshift subsamples respectively, while the solid lines show the corrected luminosity for the subsamples. These are constrained to be the same between the two subsamples by the assumption that no evolution occurs between their redshifts. This assumption is reasonable, as the largest $\rm \delta z$ between subsamples is 0.035, and the redshift range within a given subsample is the same as the redshift range between the subsamples.
+Figure \ref{fig:steps} illustrates the general principle by showing the relationship between measured (uncorrected) $\rm H_{\alpha}$ luminosity and $\Psi$. The low and high redshift measurements are shown as blue triangles and red diamonds respectively. The assumption we make is that the scatter in the relation is driven by astrophysics, but that the slope in the average relation is simply a distance effect, which can be corrected for. Figure \ref{fig:hist} summarizes the results of the process in a histogram. The dashed red and black lines show the distributions in $H_{\alpha}$ luminosity prior to correction in the low and high redshift subsamples respectively, while the solid lines show the corrected luminosity for the subsamples. These are constrained to be the same between the two subsamples by the assumption that no evolution occurs between their redshifts. This assumption is reasonable, as the largest $\rm \delta z$ between subsamples is 0.035, and the redshift range within a given subsample is the same as the redshift range between the subsamples.
 
 
 
@@ -136,8 +136,8 @@ These steps are illustrated in Figure \ref{fig:steps}. The left two panels show 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=2 \columnwidth]{steps_9_5.png}
-	\caption{Figure explaining the steps involved in our aperture correction method. (1) Low z calibration set (large points) plotted alongside the scientific sample. (2) High z calibration set(large points) plotted alongside the higher z sample from which the calibration set was drawn. (3) Low z and High z calibration sets plotted together before correction. (4) Low z and High z calibration sets plotted together after correction.}
+	\includegraphics[width= \columnwidth]{alpha_regression_9_5.png}
+	\caption{The relationship between the geometric factor $\Psi$ measuring the ratio of a galaxy's size to the size of the SDSS fiber and the fiber $H_{\alpha}$ luminosity for galaxies in the $10^{9.5} - 10^{10} M_{\odot}$ bin. Knowing the average functional form of this relationship allows us to correct for fiber effects. Points marked with a blue triangle are at lower redshift than those marked with a red diamond}
      \label{fig:steps}
 
 \end{figure*}
@@ -323,9 +323,9 @@ Our study primarily examines the relationship between the physical size of a gal
 \bibliographystyle{ApJ}
 \bibliography{biblio}
 
-\appendix{Comparison to color-based aperture corrections}
+%\appendix{Comparison to color-based aperture corrections}
 
-Here we compare our aperture correction method to one similar to that of \cite{Brinchmann04}. In order to correct for the size of the SDSS fiber, the authors developed a methodology whereby a spectroscopic measurement (e.g. star formation rate) was associated with the fiber $gri$ colors of the galaxy, the the properties of the galaxy outside of the fiber were inferred from the gri colors of the portion of the galaxy located outside of the fiber. Here, we adopt a similar methodology for the purposes of comparison. 
+%Here we compare our aperture correction method to one similar to that of \cite{Brinchmann04}. In order to correct for the size of the SDSS fiber, the authors developed a methodology whereby a spectroscopic measurement (e.g. star formation rate) was associated with the fiber $gri$ colors of the galaxy, the the properties of the galaxy outside of the fiber were inferred from the gri colors of the portion of the galaxy located outside of the fiber. Here, we adopt a similar methodology for the purposes of comparison. 
 
 %%We adopt a simple, yet effective relation to estimate $H\alpha$ equivalent width from galaxy color:
 
@@ -333,18 +333,18 @@ Here we compare our aperture correction method to one similar to that of \cite{B
 
 %%
 
-We first make use of the fiber g-r and r-i colors to estimate to estimate the measured fiber equivalent width. We divide the sample in half, and use the two colors as features in decision-tree regression algorithm fit to fiber $H\alpha$ equivalent widths. We then use the algorithm to predict the fiber $H\alpha$ equivalent width in the unused half of the sample. The agreement between the prediction derived from the colors and the spectroscopic measurement is seen in Figure \ref{fig:ccheck}. Then, we estimate the total $H\alpha$ equivalent width from the galaxies' total colors. The red contours in Figure \ref{fig:ccheck} demonstrate the agreement between the equivalent width estimated in this way and the equivalent width determined from the fiber corrections described in \ref{sec:fibercor}.
+%We first make use of the fiber g-r and r-i colors to estimate to estimate the measured fiber equivalent width. We divide the sample in half, and use the two colors as features in decision-tree regression algorithm fit to fiber $H\alpha$ equivalent widths. We then use the algorithm to predict the fiber $H\alpha$ equivalent width in the unused half of the sample. The agreement between the prediction derived from the colors and the spectroscopic measurement is seen in Figure \ref{fig:ccheck}. Then, we estimate the total $H\alpha$ equivalent width from the galaxies' total colors. The red contours in Figure \ref{fig:ccheck} demonstrate the agreement between the equivalent width estimated in this way and the equivalent width determined from the fiber corrections described in \ref{sec:fibercor}.
 
-Below $10^{9.5}$ solar masses, we see the agreement between the two methodologies break down. Predictions of total galaxy $H\alpha$ equivalent widths based on fiber color will tend to be overestimates, particularly in low equivalent width systems. This observation  in line with what \cite{Salim07} argued; the relation between color and SSFR established in star forming galaxies breaks down in galaxies without $H\alpha$. We point out that this also extends to regions of galaxies that do not emit $H\alpha$, which impacts fiber corrections even within star forming galaxies.
+%Below $10^{9.5}$ solar masses, we see the agreement between the two methodologies break down. Predictions of total galaxy $H\alpha$ equivalent widths based on fiber color will tend to be overestimates, particularly in low equivalent width systems. This observation  in line with what \cite{Salim07} argued; the relation between color and SSFR established in star forming galaxies breaks down in galaxies without $H\alpha$. We point out that this also extends to regions of galaxies that do not emit $H\alpha$, which impacts fiber corrections even within star forming galaxies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
-	\centering
-	\includegraphics[width= \columnwidth]{HA_EW_compare.png}
-	\caption{Comparison between photometrically-derived and spectroscopically-derived $\rm H\alpha$ equivalent widths for galaxies in our science sample (see text for details). Blue contours are the $H\alpha$ within the fiber and red contours are total $H\alpha$. At low masses, the photometrically derived total $H\alpha$ is overestimated.}
-     \label{fig:ccheck}
+%\begin{figure*}
+%	\centering
+%	\includegraphics[width= \columnwidth]{HA_EW_compare.png}
+%	\caption{Comparison between photometrically-derived and spectroscopically-derived $\rm H\alpha$ equivalent widths for galaxies in our science sample (see text for details). Blue contours are the $H\alpha$ within the fiber and red contours are total $H\alpha$. At low masses, the photometrically derived total $H\alpha$ is overestimated.}
+%     \label{fig:ccheck}
 
-\end{figure*}
+%\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 \end{document}

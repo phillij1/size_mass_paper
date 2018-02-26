@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JAN 2018 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,12 +314,13 @@ File: geometry_9_5.png Graphic file (type png)
 <use geometry_9_5.png>
 Package pdftex.def Info: geometry_9_5.png used on input line 129.
 (pdftex.def)             Requested size: 245.26653pt x 236.86182pt.
- <steps_9_5.png, id=25, 1300.86pt x 433.62pt>
-File: steps_9_5.png Graphic file (type png)
 
-<use steps_9_5.png>
-Package pdftex.def Info: steps_9_5.png used on input line 139.
-(pdftex.def)             Requested size: 490.53305pt x 163.50694pt.
+<alpha_regression_9_5.png, id=25, 523.9575pt x 500.87125pt>
+File: alpha_regression_9_5.png Graphic file (type png)
+
+<use alpha_regression_9_5.png>
+Package pdftex.def Info: alpha_regression_9_5.png used on input line 139.
+(pdftex.def)             Requested size: 245.26653pt x 234.45418pt.
  <hist_9_5.png, id=26, 578.16pt x 578.16pt>
 File: hist_9_5.png Graphic file (type png)
 
@@ -368,13 +369,13 @@ File: BD_size.png Graphic file (type png)
 <use BD_size.png>
 Package pdftex.def Info: BD_size.png used on input line 255.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
- [4 <./geometry_9_5.png> <./steps_9_5.png>] [5 <./hist_9_5.png> <./ha_ew_2x2.pn
-g>]
+ [4 <./geometry_9_5.png> <./alpha_regression_9_5.png>]
+[5 <./hist_9_5.png> <./ha_ew_2x2.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 268.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 267.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 268.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 267.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -387,7 +388,7 @@ Underfull \hbox (badness 1430) in paragraph at lines 292--293
 [7 <./ha_lum_2x2.png> <./ratios_ha_lum.png>] [8 <./duty.png> <./gradients_HA.pn
 g>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 295.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 293.
 
 [9 <./BD_size.png>] <111_dwarf_8_5_size_SF_r.png, id=71, 722.7pt x 722.7pt>
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
@@ -404,23 +405,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 315.
 
-(./sample-emulateapj.bbl) [10]
-<HA_EW_compare.png, id=75, 1203.49625pt x 1194.4625pt>
-File: HA_EW_compare.png Graphic file (type png)
- <use HA_EW_compare.png>
-Package pdftex.def Info: HA_EW_compare.png used on input line 343.
-(pdftex.def)             Requested size: 513.11743pt x 509.2893pt.
-
-[11 <./111_dwarf_8_5_size_SF_r.png>] [12 <./HA_EW_compare.png>]
+(./sample-emulateapj.bbl [10]) [11 <./111_dwarf_8_5_size_SF_r.png>]
 (./sample-emulateapj.aux) ) 
 Here is how much of TeX's memory you used:
- 4575 strings out of 493014
- 61625 string characters out of 6133351
- 194477 words of memory out of 5000000
- 8039 multiletter control sequences out of 15000+600000
+ 4570 strings out of 493014
+ 61574 string characters out of 6133351
+ 155130 words of memory out of 5000000
+ 8035 multiletter control sequences out of 15000+600000
  13176 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,28p,1663b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,28p,1663b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
@@ -440,10 +434,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample-emulateapj.pdf (12 pages, 1015460 bytes).
+Output written on sample-emulateapj.pdf (11 pages, 802157 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
