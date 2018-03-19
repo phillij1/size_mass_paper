@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 MAR 2018 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,113 +308,102 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: Command \r invalid in math mode on input line 110.
 
-[2] <geometry_9_5.png, id=23, 526.96875pt x 508.90125pt>
+<geometry_9_5.png, id=15, 526.96875pt x 508.90125pt>
 File: geometry_9_5.png Graphic file (type png)
-
-<use geometry_9_5.png>
-Package pdftex.def Info: geometry_9_5.png used on input line 129.
+ <use geometry_9_5.png>
+Package pdftex.def Info: geometry_9_5.png used on input line 132.
 (pdftex.def)             Requested size: 245.26653pt x 236.86182pt.
 
-<alpha_regression_9_5.png, id=25, 523.9575pt x 500.87125pt>
+<alpha_regression_9_5.png, id=17, 578.16pt x 578.16pt>
 File: alpha_regression_9_5.png Graphic file (type png)
 
 <use alpha_regression_9_5.png>
-Package pdftex.def Info: alpha_regression_9_5.png used on input line 139.
-(pdftex.def)             Requested size: 245.26653pt x 234.45418pt.
- <hist_9_5.png, id=26, 578.16pt x 578.16pt>
+Package pdftex.def Info: alpha_regression_9_5.png used on input line 142.
+(pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
+ <hist_9_5.png, id=18, 578.16pt x 578.16pt>
 File: hist_9_5.png Graphic file (type png)
 
 <use hist_9_5.png>
-Package pdftex.def Info: hist_9_5.png used on input line 149.
+Package pdftex.def Info: hist_9_5.png used on input line 152.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
- <ha_ew_2x2.png, id=27, 970.62625pt x 938.50626pt>
+ [2] [3 <./geometry_9_5.png> <./alpha_regression_9_5.png>]
+<ha_ew_2x2.png, id=37, 970.62625pt x 938.50626pt>
 File: ha_ew_2x2.png Graphic file (type png)
-
-<use ha_ew_2x2.png>
-Package pdftex.def Info: ha_ew_2x2.png used on input line 176.
+ <use ha_ew_2x2.png>
+Package pdftex.def Info: ha_ew_2x2.png used on input line 179.
 (pdftex.def)             Requested size: 367.89978pt x 355.7339pt.
- <ratios_ha_ew.png, id=28, 761.84625pt x 723.70375pt>
+
+<ratios_ha_ew.png, id=38, 761.84625pt x 723.70375pt>
 File: ratios_ha_ew.png Graphic file (type png)
-
-<use ratios_ha_ew.png>
-Package pdftex.def Info: ratios_ha_ew.png used on input line 186.
+ <use ratios_ha_ew.png>
+Package pdftex.def Info: ratios_ha_ew.png used on input line 189.
 (pdftex.def)             Requested size: 245.26653pt x 232.98132pt.
- <ha_lum_2x2.png, id=29, 983.675pt x 938.50626pt>
+
+<ha_lum_2x2.png, id=39, 983.675pt x 938.50626pt>
 File: ha_lum_2x2.png Graphic file (type png)
-
-<use ha_lum_2x2.png>
-Package pdftex.def Info: ha_lum_2x2.png used on input line 197.
+ <use ha_lum_2x2.png>
+Package pdftex.def Info: ha_lum_2x2.png used on input line 200.
 (pdftex.def)             Requested size: 367.89978pt x 351.00815pt.
- <ratios_ha_lum.png, id=30, 767.86874pt x 723.70375pt>
+
+<ratios_ha_lum.png, id=40, 761.84625pt x 723.70375pt>
 File: ratios_ha_lum.png Graphic file (type png)
+ <use ratios_ha_lum.png>
+Package pdftex.def Info: ratios_ha_lum.png used on input line 210.
+(pdftex.def)             Requested size: 245.26653pt x 232.98132pt.
 
-<use ratios_ha_lum.png>
-Package pdftex.def Info: ratios_ha_lum.png used on input line 207.
-(pdftex.def)             Requested size: 245.26653pt x 231.15926pt.
- <duty.png, id=31, 752.8125pt x 719.68875pt>
-File: duty.png Graphic file (type png)
+<GMM.png, id=41, 547.04375pt x 505.89pt>
+File: GMM.png Graphic file (type png)
+ <use GMM.png>
+Package pdftex.def Info: GMM.png used on input line 220.
+(pdftex.def)             Requested size: 367.89978pt x 340.22592pt.
 
-<use duty.png>
-Package pdftex.def Info: duty.png used on input line 217.
-(pdftex.def)             Requested size: 367.89978pt x 351.71715pt.
- <gradients_HA.png, id=32, 758.835pt x 723.70375pt>
+<gradients_HA.png, id=42, 758.835pt x 723.70375pt>
 File: gradients_HA.png Graphic file (type png)
-
-<use gradients_HA.png>
-Package pdftex.def Info: gradients_HA.png used on input line 235.
+ <use gradients_HA.png>
+Package pdftex.def Info: gradients_HA.png used on input line 238.
 (pdftex.def)             Requested size: 245.26653pt x 233.90892pt.
- [3] <BD_size.png, id=36, 722.7pt x 722.7pt>
+
+[4 <./hist_9_5.png>] [5 <./ha_ew_2x2.png> <./ratios_ha_ew.png>]
+<BD_size.png, id=52, 722.7pt x 722.7pt>
 File: BD_size.png Graphic file (type png)
-
-<use BD_size.png>
-Package pdftex.def Info: BD_size.png used on input line 255.
+ <use BD_size.png>
+Package pdftex.def Info: BD_size.png used on input line 258.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
- [4 <./geometry_9_5.png> <./alpha_regression_9_5.png>]
-[5 <./hist_9_5.png> <./ha_ew_2x2.png>]
+ [6 <./ha_lum_2x2.png> <./ratios_ha_lum.png>] [7 <./GMM.png> <./gradients_HA.pn
+g>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 267.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 271.
 
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 267.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-[6 <./ratios_ha_ew.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 292--293
+[8 <./BD_size.png>]
+Underfull \hbox (badness 1430) in paragraph at lines 295--296
 []\OT1/cmr/m/n/10 The burst-driven trans-port model of galaxy self-
  []
 
-[7 <./ha_lum_2x2.png> <./ratios_ha_lum.png>] [8 <./duty.png> <./gradients_HA.pn
-g>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 293.
-
-[9 <./BD_size.png>] <111_dwarf_8_5_size_SF_r.png, id=71, 722.7pt x 722.7pt>
+[9] <111_dwarf_8_5_size_SF_r.png, id=71, 722.7pt x 722.7pt>
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_8_5_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 303.
+Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 306.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 315.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 318.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 315.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 318.
 
 (./sample-emulateapj.bbl [10]) [11 <./111_dwarf_8_5_size_SF_r.png>]
 (./sample-emulateapj.aux) ) 
 Here is how much of TeX's memory you used:
- 4570 strings out of 493014
- 61574 string characters out of 6133351
- 155130 words of memory out of 5000000
- 8035 multiletter control sequences out of 15000+600000
+ 4573 strings out of 493014
+ 61624 string characters out of 6133351
+ 151969 words of memory out of 5000000
+ 8038 multiletter control sequences out of 15000+600000
  13176 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,28p,1663b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,28p,1663b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
@@ -434,7 +423,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample-emulateapj.pdf (11 pages, 802157 bytes).
+Output written on sample-emulateapj.pdf (11 pages, 897443 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream

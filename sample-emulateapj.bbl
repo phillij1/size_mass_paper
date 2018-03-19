@@ -1,6 +1,9 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Bakos} {et~al.}(2008){Bakos}, {Trujillo}, \& {Pohlen}}]{Bakos08}
+{Bakos}, J., {Trujillo}, I., \& {Pohlen}, M. 2008, \apjl, 683, L103
+
 \bibitem[{{Balogh} {et~al.}(2000){Balogh}, {Navarro}, \& {Morris}}]{Balogh2000}
 {Balogh}, M.~L., {Navarro}, J.~F., \& {Morris}, S.~L. 2000, \apj, 540, 113
 
@@ -45,6 +48,9 @@
 \bibitem[{{de Blok} {et~al.}(2008){de Blok}, {Walter}, {Brinks},
   {Trachternach}, {Oh}, \& {Kennicutt}}]{deblok08}
 {de Blok}, W.~J.~G., {Walter}, F., {Brinks}, E., {et~al.} 2008, \aj, 136, 2648
+
+\bibitem[{{de Jong}(1996)}]{dejong96}
+{de Jong}, R.~S. 1996, \aap, 313, 377
 
 \bibitem[{{Dekel} \& {Silk}(1986)}]{Dekel86}
 {Dekel}, A., \& {Silk}, J. 1986, \apj, 303, 39
@@ -156,12 +162,6 @@
 
 \bibitem[{{Pontzen} \& {Governato}(2012)}]{PG12}
 {Pontzen}, A., \& {Governato}, F. 2012, \mnras, 421, 3464
-
-\bibitem[{{Salim} {et~al.}(2007){Salim}, {Rich}, {Charlot}, {Brinchmann},
-  {Johnson}, {Schiminovich}, {Seibert}, {Mallery}, {Heckman}, {Forster},
-  {Friedman}, {Martin}, {Morrissey}, {Neff}, {Small}, {Wyder}, {Bianchi},
-  {Donas}, {Lee}, {Madore}, {Milliard}, {Szalay}, {Welsh}, \& {Yi}}]{Salim07}
-{Salim}, S., {Rich}, R.~M., {Charlot}, S., {et~al.} 2007, \apjs, 173, 267
 
 \bibitem[{{Schroyen} {et~al.}(2013){Schroyen}, {De Rijcke}, {Koleva},
   {Cloet-Osselaer}, \& {Vandenbroucke}}]{Schroyen13}
