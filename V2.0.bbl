@@ -42,6 +42,11 @@
 {Brinchmann}, J., {Charlot}, S., {White}, S.~D.~M., {et~al.} 2004, \mnras, 351,
   1151
 
+\bibitem[{{Chan} {et~al.}(2015){Chan}, {Kere{\v s}}, {O{\~n}orbe}, {Hopkins},
+  {Muratov}, {Faucher-Gigu{\`e}re}, \& {Quataert}}]{Chan15}
+{Chan}, T.~K., {Kere{\v s}}, D., {O{\~n}orbe}, J., {et~al.} 2015, \mnras, 454,
+  2981
+
 \bibitem[{{Cicone} {et~al.}(2016){Cicone}, {Maiolino}, \& {Marconi}}]{Cicone16}
 {Cicone}, C., {Maiolino}, R., \& {Marconi}, A. 2016, \aap, 588, A41
 
@@ -54,6 +59,11 @@
 
 \bibitem[{{Dekel} \& {Silk}(1986)}]{Dekel86}
 {Dekel}, A., \& {Silk}, J. 1986, \apj, 303, 39
+
+\bibitem[{{Di Cintio} {et~al.}(2014){Di Cintio}, {Brook}, {Macci{\`o}},
+  {Stinson}, {Knebe}, {Dutton}, \& {Wadsley}}]{DC14}
+{Di Cintio}, A., {Brook}, C.~B., {Macci{\`o}}, A.~V., {et~al.} 2014, \mnras,
+  437, 415
 
 \bibitem[{{El-Badry} {et~al.}(2016){El-Badry}, {Wetzel}, {Geha}, {Hopkins},
   {Kere{\v s}}, {Chan}, \& {Faucher-Gigu{\`e}re}}]{EB17}
@@ -71,6 +81,9 @@
 \bibitem[{{Farouki} \& {Shapiro}(1981)}]{Farouki81}
 {Farouki}, R., \& {Shapiro}, S.~L. 1981, \apj, 243, 32
 
+\bibitem[{{Garn} \& {Best}(2010)}]{Garn10}
+{Garn}, T., \& {Best}, P.~N. 2010, \mnras, 409, 421
+
 \bibitem[{{Garrison-Kimmel} {et~al.}(2014){Garrison-Kimmel}, {Boylan-Kolchin},
   {Bullock}, \& {Kirby}}]{GK14}
 {Garrison-Kimmel}, S., {Boylan-Kolchin}, M., {Bullock}, J.~S., \& {Kirby},
@@ -83,6 +96,11 @@
 
 \bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12}
 {Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
+
+\bibitem[{{Gonz{\'a}lez-Samaniego} {et~al.}(2016){Gonz{\'a}lez-Samaniego},
+  {Avila-Reese}, \& {Col{\'{\i}}n}}]{Gonz16}
+{Gonz{\'a}lez-Samaniego}, A., {Avila-Reese}, V., \& {Col{\'{\i}}n}, P. 2016,
+  \apj, 819, 101
 
 \bibitem[{{Governato} {et~al.}(2010){Governato}, {Brook}, {Mayer}, {Brooks},
   {Rhee}, {Wadsley}, {Jonsson}, {Willman}, {Stinson}, {Quinn}, \&
@@ -113,12 +131,10 @@
 {Hidalgo}, S.~L., {Monelli}, M., {Aparicio}, A., {et~al.} 2013, \apj, 778, 103
 
 \bibitem[{{Kauffmann} {et~al.}(2003){Kauffmann}, {Heckman}, {White}, {Charlot},
-  {Tremonti}, {Brinchmann}, {Bruzual}, {Peng}, {Seibert}, {Bernardi},
-  {Blanton}, {Brinkmann}, {Castander}, {Cs{\'a}bai}, {Fukugita}, {Ivezic},
-  {Munn}, {Nichol}, {Padmanabhan}, {Thakar}, {Weinberg}, \&
+  {Tremonti}, {Peng}, {Seibert}, {Brinkmann}, {Nichol}, {SubbaRao}, \&
   {York}}]{Kauffmann03}
 {Kauffmann}, G., {Heckman}, T.~M., {White}, S.~D.~M., {et~al.} 2003, \mnras,
-  341, 33
+  341, 54
 
 \bibitem[{{Kelson} {et~al.}(2016){Kelson}, {Benson}, \& {Abramson}}]{Kelson16}
 {Kelson}, D.~D., {Benson}, A.~J., \& {Abramson}, L.~E. 2016, ArXiv e-prints,
@@ -151,6 +167,11 @@
 {Marchesini}, D., {D'Onghia}, E., {Chincarini}, G., {et~al.} 2002, \apj, 575,
   801
 
+\bibitem[{{Maxwell} {et~al.}(2012){Maxwell}, {Wadsley}, {Couchman}, \&
+  {Mashchenko}}]{Maxwell12}
+{Maxwell}, A.~J., {Wadsley}, J., {Couchman}, H.~M.~P., \& {Mashchenko}, S.
+  2012, \apjl, 755, L35
+
 \bibitem[{{McGaugh} {et~al.}(2001){McGaugh}, {Rubin}, \& {de Blok}}]{McGaugh01}
 {McGaugh}, S.~S., {Rubin}, V.~C., \& {de Blok}, W.~J.~G. 2001, \aj, 122, 2381
 
@@ -162,6 +183,9 @@
 {Moore}, B., {Katz}, N., {Lake}, G., {Dressler}, A., \& {Oemler}, A. 1996,
   \nat, 379, 613
 
+\bibitem[{{Navarro} {et~al.}(1996){Navarro}, {Eke}, \& {Frenk}}]{Navarro96}
+{Navarro}, J.~F., {Eke}, V.~R., \& {Frenk}, C.~S. 1996, \mnras, 283, L72
+
 \bibitem[{{Navarro} {et~al.}(1997){Navarro}, {Frenk}, \& {White}}]{NFW}
 {Navarro}, J.~F., {Frenk}, C.~S., \& {White}, S.~D.~M. 1997, \apj, 490, 493
 
@@ -170,6 +194,9 @@
 
 \bibitem[{{Pontzen} \& {Governato}(2012{\natexlab{b}})}]{Pontzen12}
 ---. 2012{\natexlab{b}}, \mnras, 421, 3464
+
+\bibitem[{{Pontzen} \& {Governato}(2014)}]{Pontzen14}
+---. 2014, \nat, 506, 171
 
 \bibitem[{{Schroyen} {et~al.}(2013){Schroyen}, {De Rijcke}, {Koleva},
   {Cloet-Osselaer}, \& {Vandenbroucke}}]{Schroyen13}

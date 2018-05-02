@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2018 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sample-emulateapj.tex
-(./sample-emulateapj.tex
+**V2.0.tex
+(./V2.0.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./emulateapj.cls
@@ -212,8 +212,8 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 25.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 25.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 25.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 25.
- (./sample-emulateapj.aux)
-\openout1 = `sample-emulateapj.aux'.
+ (./V2.0.aux)
+\openout1 = `V2.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -288,7 +288,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\openout3 = `sample-emulateapjNotes.bib'.
+\openout3 = `V2.0Notes.bib'.
 
 LaTeX Font Info:    Try loading font information for U+lasy on input line 57.
 
@@ -311,103 +311,109 @@ LaTeX Warning: Command \r invalid in math mode on input line 110.
 
 LaTeX Warning: Reference `tab' on page 2 undefined on input line 122.
 
+[2]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 125.
+               Default added (so using `tbp') on input line 131.
 
-<geometry_9_5.png, id=17, 526.96875pt x 508.90125pt>
+<geometry_9_5.png, id=24, 526.96875pt x 508.90125pt>
 File: geometry_9_5.png Graphic file (type png)
  <use geometry_9_5.png>
-Package pdftex.def Info: geometry_9_5.png used on input line 148.
+Package pdftex.def Info: geometry_9_5.png used on input line 154.
 (pdftex.def)             Requested size: 245.26653pt x 236.86182pt.
 
-<alpha_regression_9_5.png, id=19, 578.16pt x 578.16pt>
+<alpha_regression_9_5.png, id=26, 578.16pt x 578.16pt>
 File: alpha_regression_9_5.png Graphic file (type png)
 
 <use alpha_regression_9_5.png>
-Package pdftex.def Info: alpha_regression_9_5.png used on input line 158.
+Package pdftex.def Info: alpha_regression_9_5.png used on input line 164.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
- <Lum_hist_9_5.png, id=20, 578.16pt x 433.62pt>
+ <Lum_hist_9_5.png, id=27, 578.16pt x 433.62pt>
 File: Lum_hist_9_5.png Graphic file (type png)
 
 <use Lum_hist_9_5.png>
-Package pdftex.def Info: Lum_hist_9_5.png used on input line 168.
+Package pdftex.def Info: Lum_hist_9_5.png used on input line 174.
 (pdftex.def)             Requested size: 245.26653pt x 183.94531pt.
- [2]
+ <model.png, id=28, 792.9625pt x 687.56876pt>
+File: model.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:HA_ew_mass' on page 3 undefined on input line 186
-.
+<use model.png>
+Package pdftex.def Info: model.png used on input line 184.
+(pdftex.def)             Requested size: 343.37163pt x 297.7366pt.
 
-[3 <./geometry_9_5.png> <./alpha_regression_9_5.png>]
-<ha_lum_2x2.png, id=38, 983.675pt x 938.50626pt>
-File: ha_lum_2x2.png Graphic file (type png)
- <use ha_lum_2x2.png>
-Package pdftex.def Info: ha_lum_2x2.png used on input line 216.
-(pdftex.def)             Requested size: 367.89978pt x 351.00815pt.
+Underfull \hbox (badness 3291) in paragraph at lines 212--213
+[]\OT1/cmr/m/n/10 In Fig-ure 7[], we plot the re-la-tion-ship be-tween
+ []
 
-<ratios_ha_lum.png, id=39, 761.84625pt x 723.70375pt>
-File: ratios_ha_lum.png Graphic file (type png)
- <use ratios_ha_lum.png>
-Package pdftex.def Info: ratios_ha_lum.png used on input line 226.
-(pdftex.def)             Requested size: 245.26653pt x 232.98132pt.
+[3] <ha_lum_2x2_2A.png, id=36, 979.66pt x 938.50626pt>
+File: ha_lum_2x2_2A.png Graphic file (type png)
+ <use ha_lum_2x2_2A.png>
+Package pdftex.def Info: ha_lum_2x2_2A.png used on input line 242.
+(pdftex.def)             Requested size: 367.89978pt x 352.4402pt.
 
-<GMM.png, id=40, 548.0475pt x 505.89pt>
+<mass_delta_sfr.png, id=37, 578.16pt x 578.16pt>
+File: mass_delta_sfr.png Graphic file (type png)
+ <use mass_delta_sfr.png>
+Package pdftex.def Info: mass_delta_sfr.png used on input line 252.
+(pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
+
+<ha_lum_2x2_excess.png, id=38, 998.73125pt x 938.50626pt>
+File: ha_lum_2x2_excess.png Graphic file (type png)
+
+<use ha_lum_2x2_excess.png>
+Package pdftex.def Info: ha_lum_2x2_excess.png used on input line 263.
+(pdftex.def)             Requested size: 367.89978pt x 345.7096pt.
+
+<mass_delta_cent.png, id=39, 551.05875pt x 505.89pt>
+File: mass_delta_cent.png Graphic file (type png)
+ <use mass_delta_cent.png>
+Package pdftex.def Info: mass_delta_cent.png used on input line 273.
+(pdftex.def)             Requested size: 245.26653pt x 225.16278pt.
+
+<GMM.png, id=40, 551.05875pt x 501.875pt>
 File: GMM.png Graphic file (type png)
  <use GMM.png>
-Package pdftex.def Info: GMM.png used on input line 236.
-(pdftex.def)             Requested size: 245.26653pt x 226.40558pt.
-
-<gradients_HA.png, id=41, 758.835pt x 723.70375pt>
-File: gradients_HA.png Graphic file (type png)
- <use gradients_HA.png>
-Package pdftex.def Info: gradients_HA.png used on input line 254.
-(pdftex.def)             Requested size: 245.26653pt x 233.90892pt.
-
-[4 <./Lum_hist_9_5.png>] [5 <./ha_lum_2x2.png> <./ratios_ha_lum.png>]
-
-Package natbib Warning: Citation `(' on page 6 undefined on input line 290.
-
-[6 <./GMM.png> <./gradients_HA.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 314--315
+Package pdftex.def Info: GMM.png used on input line 285.
+(pdftex.def)             Requested size: 245.26653pt x 223.37578pt.
+ [4 <./geometry_9_5.png> <./alpha_regression_9_5.png>] [5 <./Lum_hist_9_5.png> 
+<./model.png>] [6 <./ha_lum_2x2_2A.png> <./mass_delta_sfr.png>] [7 <./ha_lum_2x
+2_excess.png> <./mass_delta_cent.png>]
+Underfull \hbox (badness 1430) in paragraph at lines 363--364
 []\OT1/cmr/m/n/10 The burst-driven trans-port model of galaxy self-
  []
 
-[7] <111_dwarf_8_5_size_SF_r.png, id=60, 722.7pt x 722.7pt>
+[8 <./GMM.png>] <111_dwarf_8_5_size_SF_r.png, id=67, 722.7pt x 722.7pt>
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_8_5_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 325.
+Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 374.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 337.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 386.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 337.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
 
-Underfull \hbox (badness 1210) in paragraph at lines 341--342
+Underfull \hbox (badness 1210) in paragraph at lines 390--391
  \OT1/cmr/m/n/10 for-ma-tion, where dense star for-ma-tion in the
  []
 
-(./sample-emulateapj.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[8] [9 <./111_dwarf_8_5_size_SF_r.png>] (./sample-emulateapj.aux)
+(./V2.0.bbl) [9] [10 <./111_dwarf_8_5_size_SF_r.png>] (./V2.0.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4580 strings out of 493014
- 61657 string characters out of 6133351
- 178069 words of memory out of 5000000
- 8047 multiletter control sequences out of 15000+600000
+ 4623 strings out of 493014
+ 62180 string characters out of 6133351
+ 198891 words of memory out of 5000000
+ 8088 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,1663b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,28p,1650b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -428,10 +434,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample-emulateapj.pdf (9 pages, 606566 bytes).
+Output written on V2.0.pdf (10 pages, 765395 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

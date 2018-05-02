@@ -4,51 +4,55 @@ The top-level auxiliary file: sample-emulateapj.aux
 The style file: ApJ.bst
 Database file #1: sample-emulateapjNotes.bib
 Database file #2: biblio.bib
-Repeated entry---line 1293 of file biblio.bib
+Repeated entry---line 746 of file biblio.bib
+ : @article{Governato12
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1384 of file biblio.bib
  : @article{brinchmann04
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "("
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 49 entries,
+You've used 51 entries,
             3085 wiz_defined-function locations,
-            1041 strings with 19104 characters,
-and the built_in function-call counts, 26690 in all, are:
-= -- 2058
-> -- 2359
+            1050 strings with 19631 characters,
+and the built_in function-call counts, 27745 in all, are:
+= -- 2135
+> -- 2457
 < -- 9
-+ -- 796
-- -- 865
-* -- 2469
-:= -- 5149
-add.period$ -- 49
-call.type$ -- 49
-change.case$ -- 364
-chr.to.int$ -- 49
-cite$ -- 49
-duplicate$ -- 924
-empty$ -- 1375
-format.name$ -- 905
-if$ -- 5160
-int.to.chr$ -- 1
++ -- 829
+- -- 900
+* -- 2574
+:= -- 5355
+add.period$ -- 51
+call.type$ -- 51
+change.case$ -- 376
+chr.to.int$ -- 50
+cite$ -- 51
+duplicate$ -- 962
+empty$ -- 1429
+format.name$ -- 942
+if$ -- 5362
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 49
-newline$ -- 151
-num.names$ -- 196
-pop$ -- 396
+missing$ -- 51
+newline$ -- 157
+num.names$ -- 204
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 376
 quote$ -- 0
-skip$ -- 755
+skip$ -- 780
 stack$ -- 0
-substring$ -- 1028
-swap$ -- 0
+substring$ -- 1064
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 441
+type$ -- 459
 warning$ -- 0
-while$ -- 186
+while$ -- 193
 width$ -- 0
-write$ -- 493
-(There was 1 error message)
+write$ -- 513
+(There were 2 error messages)

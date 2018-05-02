@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: V2.0.aux
+The style file: ApJ.bst
+Database file #1: V2.0Notes.bib
+Database file #2: biblio.bib
+Repeated entry---line 181 of file biblio.bib
+ : @article{Lee09
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 306 of file biblio.bib
+ : @article{Kauffmann03
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 915 of file biblio.bib
+ : @article{Governato12
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1553 of file biblio.bib
+ : @article{brinchmann04
+ :                      ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 58 entries,
+            3085 wiz_defined-function locations,
+            1105 strings with 20809 characters,
+and the built_in function-call counts, 31074 in all, are:
+= -- 2440
+> -- 2672
+< -- 11
++ -- 903
+- -- 982
+* -- 2845
+:= -- 5968
+add.period$ -- 58
+call.type$ -- 58
+change.case$ -- 432
+chr.to.int$ -- 57
+cite$ -- 58
+duplicate$ -- 1095
+empty$ -- 1626
+format.name$ -- 1034
+if$ -- 6029
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 58
+newline$ -- 178
+num.names$ -- 232
+pop$ -- 471
+preamble$ -- 1
+purify$ -- 432
+quote$ -- 0
+skip$ -- 890
+stack$ -- 0
+substring$ -- 1214
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 522
+warning$ -- 0
+while$ -- 221
+width$ -- 0
+write$ -- 583
+(There were 4 error messages)
