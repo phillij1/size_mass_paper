@@ -102,12 +102,12 @@ One clue to resolving this dilemma may lie in how dwarf galaxies' old stars are 
 
 A unified model of galaxy formation that solves these problems was first put forward by \cite{Navarro96}, where the authors show that feedback driven outflows can produce galaxies in simulations with realistically cored profiles. Further studies \citep{Governato10,Governato12,Maxwell12,DC14,Pontzen14,Chan15,EB17} refined the theory, specifying that feedback regulates dwarf galaxy star formation in a stochastic manner and powers radial transport, but an observational smoking gun for this model remains elusive. 
 
-In this study, we use observations of both dwarf galaxies and massive galaxies to investigate the observational predictions of a model for dwarf galaxy formation whereby stochastic star formation in the center of the galaxy powers radial transport of both baryonic and dark matter. Specifically, our study will focus on the structure of star forming galaxies, and how that structure is dependent on the vigor with which the galaxy is forming stars. [Description of sections]. Throughout the paper we use h=0.7 in appropriate calculations, [other relevant details]. 
+In this study, we use observations of both dwarf galaxies and massive galaxies to investigate the observational predictions of a model for dwarf galaxy formation whereby stochastic star formation in the center of the galaxy powers radial transport of both baryonic and dark matter. Specifically, our study will focus on the structure of star forming galaxies, and how that structure is dependent on the vigor with which the galaxy is forming stars. [Description of sections]. Throughout the paper we use h=0.7 in appropriate calculations, and unless otherwise noted, star formation rates are calculated according to \cite{KS98}. 
 
 \section{Data and observations}
 \label{sec:obs}
 
-The data used in this study come from the Sloan Digital Sky Survey \citep[SDSS,][]{SDSS}, making use of the NYU and MPA-JHU value-added galactic catalogs \citep{Kauffmann03,Brinchmann04,blanton05vagc}. To select our scientific sample, we first select all galaxies with stellar masses between $10^{8.5}$ and $10^{10.5} M_{\odot}$. We require galaxies in our scientific sample to be actively star forming, so we impose a minimum $H\alpha$ equivalent width of $2 \rm \AA$ and require that the galaxies we select reside in the purely star forming region of the BPT diagram \citep{BPT}. We admit to the scientific sample only galaxies within a mass-dependent completeness redshift, estimated by dividing the sample into four mass bins of width 0.5 dex and plotting a histogram of the redshift of galaxies in each bin. The peak of the histogram was taken to be the approximate completeness limit for the scientific sample. These limits, as well as the number of galaxies in our sample, are given in Table \ref{tab:info}.
+The data used in this study come from the Sloan Digital Sky Survey \citep[SDSS,][]{SDSS}, making use of the NYU and MPA-JHU value-added galactic catalogs \citep{Kauffmann03,Brinchmann04,blanton05vagc}. To select our scientific sample, we first take all galaxies with stellar masses between $10^{8.0}$ and $10^{11.0} M_{\odot}$. We require galaxies in our scientific sample to be actively star forming, so we impose a minimum $H\alpha$ equivalent width of $2 \rm \AA$ and require that the galaxies we select reside in the purely star forming region of the BPT diagram \citep{BPT}. We admit to the scientific sample only galaxies within a mass-dependent completeness redshift, estimated by dividing the sample into six mass bins of width 0.5 dex and plotting a histogram of the redshift of galaxies in each bin. The peak of the histogram was taken to be the approximate completeness limit for the scientific sample. These limits, as well as the number of galaxies in our sample, are given in Table \ref{tab:info}.
 
 %We also put together a sample that would be used to calibrate our required fiber corrections. This sample was selected in exactly the same way as the scientific sample, except the completeness requirement was relaxed; galaxies were permitted into the calibration sample if they were within two times the completeness limit of the scientific sample. In \ref{sec:fibercor}, we describe how this calibration sample is used.
 
@@ -117,30 +117,32 @@ SDSS spectroscopy is based on light being channeled into fibers $3$ arcsec in di
 
 We begin by defining a parameter $\Psi$ that corresponds to the fraction of a galaxy's area on the sky that lies within the fiber. For galaxies smaller than 3 arcsec, $\Psi = 1$. For larger galaxies, $\Psi = \frac{\pi R^2}{A_z}$, where R is the circularized radius of the galaxy measured in kpc (taken to be \textit{r}-band R90 so as to account for nearly all light from the galaxy) and $A_z$ is the area of a circle of diameter 3 arcsec at the redshift of the galaxy. Figure \ref{fig:geo} shows $\Psi$ plotted against galaxy radius for galaxies in our $10^{9.5}-10^{10.0}$ bin. Notice that, as one might expect, larger galaxies tend to have more of their area fall outside out the fiber, leading to lower values of $\Psi$. The selection effect in the upper right portion of the plot is introduced by the redshift cut we place on the sample. An object that lies on this line is located close to the maximum allowed redshift, such that it is the minimum size on the sky, and thus the largest $\Psi$. 
 
-If we are carrying out a correction on some generic parameter $\Theta$, which could represent e.g. star formation rate, we assume that the correction will take the form of a power law, i.e., $$\Theta_{total} = \Theta_{fiber} \times \Psi^{-\alpha}$$. Here $\alpha$ is a power law index that we will derive empirically and $\Theta_{fiber}$ is the measured value of $\Theta$ within the fiber. In calculating $\alpha$, our goal is to correct $\Theta$ such that it its distribution independent of redshift (we assume no redshift evolution within our full sample). To this end, we fit a linear relationship to $log \Theta_{fiber}$ and $log \Psi$. The slope of this relationship we adopt as $\alpha$.
+If we are carrying out a correction on some generic parameter $\Theta$, which could represent e.g. star formation rate, we assume that the correction will take the form of a power law, i.e., $$\Theta_{\rm total} = \Theta_{\rm fiber} \times \Psi^{-\alpha}$$. Here $\alpha$ is a power law index that we will derive empirically and $\Theta_{\rm fiber}$ is the measured value of $\Theta$ within the fiber. In calculating $\alpha$, our goal is to correct $\Theta$ such that its distribution is independent of redshift. We assume no redshift evolution within our full sample, which is a fair assumption between z=0 and z=0.07. To this end, we fit a linear relationship to $log \Theta_{fiber}$ and $log \Psi$. The slope of this relationship we adopt as $\alpha$.
 
-To validate that our correction procedure does indeed produce a measure for $\Theta$ that is independent of redshift, we divide each mass bin on redshift. We will refer to these as the low redshift subsample and high redshift subsample\footnote{We use "high" redshift in a relative sense; all galaxies we consider in this paper are quite low redshift.}. Galaxies with redshift less than $z_{complete}/2$ are placed in the low redshift subsample, and with redshifts between $z_{complete}/2$ and  $z_{complete}$ in the high redshift sample. In applying the correction, we will call the measured value of the parameter of interest $\Theta_{fiber}$. We then compare at the distributions in $\Theta_{total}$ between the low and high redshift sample. This comparison is shown in $H_\alpha$ luminosity in Figure \ref{fig:hist} for the $M\star ~ 10^{9.5} M_{\odot}$ bin. We see excellent agreement in the corrected values across redshift for each mass bin, and note that this agreement is only seen after the correction is made. Table \ref{tab} contains the measured alphas and completeness redshifts for each sample. If we substitute $SFR$ for the generic $\Theta$ in the above derivation, we can make explicit the definition $$SFR_{cent} \equiv SRFR_{fiber} \times \Psi^{-alpha}$$.
+To validate that our correction procedure does indeed produce a measure for $\Theta$ that is independent of redshift, we divide each mass bin on redshift. We will refer to these as the low redshift subsample and high redshift subsample\footnote{We use "high" redshift in a relative sense; all galaxies we consider in this paper are quite low redshift.}. Galaxies with redshift less than $z_{complete}/2$ are placed in the low redshift subsample, and with redshifts between $z_{complete}/2$ and  $z_{complete}$ in the high redshift sample. In applying the correction, we will call the measured value of the parameter of interest $\Theta_{fiber}$. We then compare at the distributions in $\Theta_{total}$ between the low and high redshift sample. This comparison is shown in $H_\alpha$ luminosity in Figure \ref{fig:hist} for the $M\star ~ 10^{9.5} M_{\odot}$ bin. We see excellent agreement in the corrected values across redshift for each mass bin, and note that this agreement is only seen after the correction is made. Table \ref{tab} contains the measured alphas and completeness redshifts for each sample. If we substitute $SFR$ for the generic $\Theta$ in the above derivation, we can make explicit the definition $$SFR_{cent} \equiv SFR_{fiber} \times \Psi^{-alpha}$$.
 
 \subsection{Concentration/luminosity degeneracy}
 \label{sec:concdep}
 As previously mentioned, the above procedure produces a measure for $SFR_{cent}$ that is overly reliant on information from the galaxy's center. If two galaxies have the same $\Psi$ and $SFR_{fiber}$, they would end up with the same $SFR_{cent}$, even if one of them had substantially more star formation in its outskirts (and thus a higher true star formation rate). Essentially, using the parameter $SFR_{cent}$ introduces a degeneracy between a galaxy's true star formation rate and the concentration of its star formation. Note that, had we simply corrected for the area outside of the fiber (i.e., applied an $\alpha= 1$ correction), we would have been degenerate in redshift as well.
 
-To investigate this degeneracy, we carried out a simple Monte Carlo simulation with toy models of galaxies. The galaxies displayed star formation according to one of three models: they either have centrally concentrated star formation, constant star formation density, or star formation preferentially in the outskirts. Galaxy size and overall star formation rate was allowed to vary. We then applied the same steps described above to determine a $SFR_{cent}$ for our simulated galaxies. Upon plotting $SFR_{cent}$ vs. $\Psi$, the three models occupy distinct regions of parameter space, with the objects with centrally concentrated star formation displaying the highest $SRF_{cent}$ and the objects with low central star formation displaying the lowest. To remove the variation due to intrinsic star formation, we normalize $SFR_{cent}$ by each galaxy's intrinsic star formation rate. This allows us to examine $\rm log \frac{SRF_cent}{SFR}$ for each galaxy as the ``central excess" in star formation. If we color the points in $\rm log \frac{SRF_cent}{SFR}$ vs. $\Psi$ space by concentration (i.e., R90/R50) we can see a correspondence between high $\rm log \frac{SRF_cent}{SFR}$ and concentration. We will therefore use this ratio as a proxy for the concentration of star formation in our galaxies. 
+To investigate this degeneracy, we carried out a simple Monte Carlo simulation with toy models of galaxies. The galaxies were divided into an inner and outer region, each with a separate star formation density. Galaxies were divided into two categories: those with greater star formation rate density in the center, and those with greater star formation rate density in the outskirts; i.e. galaxies with central star formation and galaxies with star formation in the disk. We then applied the same steps described above to determine a $SFR_{cent}$ for our simulated galaxies. Upon plotting $SFR_{cent}$ vs. $\Psi$, the two models occupy distinct regions of parameter space, with the objects  centrally concentrated star formation displaying the highest $SRF_{cent}$ and the objects with low central star formation displaying the lowest. To remove the variation due to intrinsic star formation, we normalize $SFR_{cent}$ by each galaxy's intrinsic star formation rate. This allows us to examine $\rm log \frac{SRF_cent}{SFR}$ for each galaxy as the ``central excess" in star formation. If we color the points in $\rm log \frac{SRF_cent}{SFR}$ vs. $\Psi$ space by concentration (i.e., R90/R50) we can see a correspondence between high $\rm log \frac{SRF_cent}{SFR}$ and concentration. We will therefore use this ratio as a proxy for the concentration of star formation in our galaxies. Note that while $\rm log \frac{SRF_cent}{SFR}$ can serve as a proxy for concentration, we can not establish a one-to-one mapping between $\rm log \frac{SRF_cent}{SFR}$ and concentration. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table}[]
 	\centering
 
 	\label{tab:info}
-	\begin{tabular}{lll} 
+	\begin{tabular}{llll} 
 	\hline 
-	Mass Bin ($M_{\odot}$)& $\alpha$ & $z_{\rm complete}$ 	\\
+	Mass Bin ($M_{\odot}$)& $\alpha$ & $z_{\rm complete}$ 	&  $\rm N$ \\
 	\hline
 	\hline 
-	$10^{8.5}$   & 0.835 & 0.023 \\ 
-	$10^{9.0}$   & 0.740   & 0.035  \\ 
-	$10^{9.5}$   & 0.784    & 0.058 \\ 
-	$10^{10.}$   &  0.664 & 0.07 \\
+	$10^{8.0} - 10^{8.5}$   & 1.347 & 0.023 & 4376 \\ 
+	$10^{8.5} - 10^{9.0}$   & 0.797 & 0.023 & 13732\\
+	$10^{9.0} - 10^{9.5}$   & 0.830  & 0.035  & 29979 \\ 
+	$10^{9.5} - 10^{10.0}$   & 0.895    & 0.058 & 58709 \\
+	$10^{10.0} - 10^{10.5}$   &  0.698 & 0.081 & 88476 \\
+	$10^{10.5} - 10^{11.0}$   &  0.731 & 0.15 & 69858 \\
 	\hline 
 	\end{tabular}
 		\caption{Power law index and completeness redshift for galaxies in each mass bin we consider. }
@@ -192,28 +194,28 @@ To investigate this degeneracy, we carried out a simple Monte Carlo simulation w
 \section{Results}
 \label{sec:results}
 
-In this section we will examine the relationship between a galaxy's physical size and the rate and concentration of its star formation. Our sample is divided into bins of 0.5 dex in stellar mass, allowing us to examine how the relationship between size and $H\alpha$ emission with galaxy mass. Of particular interest is what happens at dwarf-scale masses, i.e., the lower two mass bins of our sample.
+In this section we will examine the relationship between a galaxy's physical size (as probed by \textit{r}-band R90) and the rate and concentration of its star formation. Our sample is divided into bins of 0.5 dex in stellar mass, allowing us to examine how the relationship between size and $H\alpha$ emission with galaxy mass. Of particular interest is what happens at dwarf-scale masses, i.e., the lower-mass half of our sample.
 
 To establish a mass-independent size metric, we fit a mass-size relation to all star-forming galaxies below redshift 0.03, then determine the expected size for each galaxy in the sample based on its stellar mass. For each galaxy, we then calculate a ``size offset" which is the logarithm of the ratio between the actual size of the galaxy in kpc and the expected size of that galaxy, also in kpc. This size offset parameter has the useful properties of being centered at or very close to zero for any given population of galaxies, and having relatively consistent scatter (about 0.4 dex) over the mass ranges we probe.
 
 %In Figure \ref{fig:HA_ew}, we plot the total (i.e. aperture-corrected) $H\alpha$ equivalent width against the size offset parameters in four stellar mass bins. There is an anti-correlation in $H \alpha$ equivalent width with galaxy size in all four bins, however  this anti-correlation is most significant in the lowest mass bin. To emphasize this point, we show the median equivalent width for galaxies with negative size offset (i.e. smaller size, black points) and positive size offset (i.e. larger size, green points) as horizontal lines. In Figure \ref{fig:HA_ew_mass}, we show the difference between these two medians plotted against stellar mass. Here, $\rm \Delta log(H_{\alpha}\ EW)$ is defined to be the median equivalent width of the larger galaxies minus that of the smaller galaxies. Here it is apparent that equivalent widths of the sample at $10^{8.5} \ M_{\odot}$ are significantly lower than those at higher masses.
 
-In Figure \ref{fig:sfr}, we plot star formation rate against size offset for galaxies in each mass bin. As expected, star formation tends to increase with increasing mass. Within each mass bin, we plot the average star formation rate at fixed size offset as a blue line. In the lowest mass bin, the slope of average star formation rate is flat, i.e., larger galaxies are forming stars no more vigorously than their smaller counterparts. With increasing mass, the slope of the relation between size and star formation steepens, such that larger galaxies are indeed forming more stars. 
+In Figure \ref{fig:sfr}, we plot star formation rate against size offset for galaxies in each mass bin. As expected, star formation tends to increase with increasing mass. Within each mass bin, we plot the average star formation rate at fixed size offset as a blue line. The broad trend we see is a decreasing slope from the lowest mass bin to the highest, such that smaller galaxies are less star forming at lower masses. 
 
-We compute the difference in the median star formation rate for objects that have larger and smaller than average for their mass. These galaxies are colored green and black, respectively, in Figure \ref{fig:sfr}. We plot this difference in Figure \ref{fig:HA_lum_mass}. Errors on the median values were determined through bootstrapping. Galaxies of mass $10^{8.5} M_{\odot}$ have the smallest difference in median star formation rate. More massive galaxies have larger differences, although the effect is not monotonic. Galaxies at $10^{9} M_{\odot}$ and $10^{10} M_{\odot}$ in stellar mass show roughly equal difference between small and large galaxies, and galaxies at $10^{9.5} M_{\odot}$ show the greatest difference.
+If, however, we plot the slope of our size/star formation rate relation against the stellar mass of the galaxies in each bin (Figure \ref{fig:HA_lum_mass}), we see a more complicated behavior. Rather than monotonically decreasing with stellar mass, the slope turns over $10^{8.5} M_{\odot}$  and again at $10^{9.5} M_{\odot}$. The size of the error bars makes it unclear whether or not the turnover at $10^{8.5} M_{\odot}$ is indeed real, however the turnover at $10^{9.5} M_{\odot}$ seems to indeed be real.
+
+We see a very similar result when we examine the star formation rate density with respect to size and mass. Figures \ref{fig:sfrdens} shows the average star formation rate density plotted against size offset for galaxies in our six bins, while Figure \ref{fig:HA_dens_mass} shows the dependence of the slope of that relation on galactic stellar mass. Unsurprisingly, we see essentially the same trends, with a strong maximum at  $10^{9.5} M_{\odot}$ and a weak minimum at $10^{8.5} M_{\odot}$.
 
 It should be said that this effect is somewhat subtle. Even the largest discrepancy in star formation between small and large galaxies we observe results in only a $20\%$ boost in star formation for larger galaxies. On the other hand, the equivalence of star formation rate between large and small galaxies in the lowest mass bin corresponds to a $\sim 15\%$ larger average star formation rate density in the smaller objects. While these changes in star formation rate are not large, they are statistically significant due to the high number of galaxies in our sample.
 
-\subsection{Concentration}
+\subsection{Central Star Formation}
 \label{sec:conc}
 
 In section \ref{sec:concdep}, we discuss how the ratio $\rm log \frac{SRF_cent}{SFR}$, which describes the deviation in total star formation implied by the galaxy's center from the true star formation rate, can be used to probe galaxy concentration. We turn now to examining how this ratio varies with galaxy size and mass.
 
-In Figure \ref{fig:conc1}, we plot the relationship between $\rm log \frac{SRF_cent}{SFR}$ and size offset for galaxies in the four mass bins. We see a general decrease in this ratio with increasing stellar mass. This is consistent with observed age gradients in both massive and dwarf galaxies; we find star formation mostly in the center in dwarf galaxies, and mostly in the outskirts in massive galaxies. Within each mass bin, there is an anticorrelation in $\rm log \frac{SRF_cent}{SFR}$ with galaxy size, implying that smaller galaxies are more centrally concentrated in their star formation than larger ones. This anticorrelation flattens with increasing stellar mass; the tendency for smaller galaxies to be more centrally concentrated is more prominent in dwarf galaxies than in more massive ones.
+In Figure \ref{fig:sfr_ex}, we plot the relationship between $\rm log \frac{SRF_cent}{SFR}$ and size offset for galaxies in the six mass bins, showing the relation between the slopes of these relations and stellar mass in Figure \ref{fig:HA_ex_mass}. We see again two inflection points, this time at $10^{8.5} M_{\odot}$ and $10^{10.0} M_{\odot}$. Again, the lower inflection point relies heavily on the uncertain value of the point at $10^{8.5} M_{\odot}$; however, the inflection point at higher masses seems robust. Overall, the trend is that objects at intermediate mass, i.e. between $10^{9.0} M_{\odot}$ and $10^{10.0} M_{\odot}$ exhibit higher concentrations in smaller objects than is seen in other mass bins. 
 
-Figure \ref{fig:conc2} shows the difference in median $\rm log \frac{SRF_{cent}}{SFR}$ between large and small galaxies. The largest difference occurs in the $10^{9} M_{\odot}$ mass bin, with the two greater mass bins displaying very weak dependence on with size. 
-
-In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset  for the $10^{9.5} M_{\odot}$ mass bin. Under the assumption that the total distribution is a sum of two distributions representing the active and passive components, we model the total distribution as a mixture of two Gaussian processes using the python package SKLEARN. These results are shown in the figure; the line through the two dimensional histogram separates the two Gaussian distributions, which we interpret as objects in the active and passive phases respectively. We can estimate of the fraction of time each object spends in the active phase to be equal to the fraction of objects observed to be in the active phase, which we measure as 0.43. This measurement is reasonably robust to the precise method of dividing the sample into its active and passive components. In Section \ref{(sec:discuss)}, we will use this value to comment on the physics at play in these systems.
+In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset for the $10^{9.5} M_{\odot}$ mass bin. Under the assumption that the total distribution is a sum of two distributions representing the active and passive components, we model the total distribution as a mixture of two Gaussian processes using the python package SKLEARN. These results are shown in the figure; the line through the two dimensional histogram separates the two Gaussian distributions, which we interpret as objects in the active and passive phases respectively. We can estimate of the fraction of time each object spends in the active phase to be equal to the fraction of objects observed to be in the active phase, which we measure as 0.43. This measurement is reasonably robust to the precise method of dividing the sample into its active and passive components. In Section \ref{(sec:discuss)}, we will use this value to comment on the physics at play in these systems.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{figure*}
@@ -240,7 +242,7 @@ In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset
 \begin{figure*}
 	\centering
 	\includegraphics[width=1.5 \columnwidth]{ha_lum_2x2_2A.png}
-	\caption{Star formation rate plotted against size offset for galaxies in four mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
+	\caption{Star formation rate plotted against size offset for galaxies in six mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
      \label{fig:sfr}
 
 \end{figure*}
@@ -249,20 +251,19 @@ In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-	\includegraphics[width= \columnwidth]{mass_delta_sfr.png}
-	\caption{Change in median $H_{\alpha|}$ luminonsity between the objects with size offset greater than zero and objects with size offset less than zero plotted against stellar mass.}
+	\includegraphics[width= \columnwidth]{slope_sfr_size.png}
+	\caption{Slope of the star formation rate vs. size relation plotted against stellar mass.}
 	\label{fig:HA_lum_mass}
 	
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
-	\includegraphics[width=1.5 \columnwidth]{ha_lum_2x2_excess.png}
-	\caption{Star formation rate plotted against size offset for galaxies in four mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
-	\label{fig:conc1}
+	\includegraphics[width=1.5 \columnwidth]{ha_lum_dens_2x2_2A.png}
+	\caption{Star formation rate plotted against size offset for galaxies in six mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
+	\label{fig:sfrdens}
 	
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -270,31 +271,81 @@ In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-	\includegraphics[width= \columnwidth]{mass_delta_cent.png}
-	\caption{Change in median $H_{\alpha|}$ luminonsity between the objects with size offset greater than zero and objects with size offset less than zero plotted against stellar mass.}
-	\label{fig:conc2}
+	\includegraphics[width= \columnwidth]{slope_sfrdens_size.png}
+	\caption{Slope of the star formation rate density vs. size relation plotted against stellar mass.}
+	\label{fig:HA_dens_mass}
 	
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure*}
+%	\centering
+%	\includegraphics[width=1.5 \columnwidth]{ha_lum_2x2_excess.png}
+%	\caption{Star formation rate plotted against size offset for galaxies in six mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
+%	\label{fig:conc1}
+	
+%\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}
+	%\centering
+	%\includegraphics[width= \columnwidth]{slope_sfr_density_size.png}
+	%\caption{Change in median $H_{\alpha|}$ luminonsity between the objects %with size offset greater than zero and objects with size offset less than zero %plotted against stellar mass.}
+%	\label{fig:conc2}
+	
+%\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+	\centering
+	\includegraphics[width=1.5 \columnwidth]{excess_2x3.png}
+	\caption{Star formation rate plotted against size offset for galaxies in six mass bins. The data transition from a nearly flat relation at small masses to a slight correlation at larger masses. Black and green points represent smaller-than-average and larger-than-average galaxies, respectively. Blue dashed line is a linear fit to the data.}
+	\label{fig:sfr_ex}
+	
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\includegraphics[width= \columnwidth]{slope_cent_excess.png}
+	\caption{Slope of the star formation rate vs. size relation plotted against stellar mass.}
+	\label{fig:HA_ex_mass}
+	
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 	\centering
 	\includegraphics[width=1. \columnwidth]{GMM.png}
 	\caption{Black line divides the lowest mass sample into actively and passively star-forming galaxies as derived from a Gaussian mixture model. Approximately 57\% of the sample is in the passive regime, while 43\% is in the active regime.}
-     \label{fig:HA_duty}
-
+	\label{fig:HA_duty}
+	
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+	\centering
+	\includegraphics[width=1. \columnwidth]{outflowrate_slope2.png}
+	\caption{\textit{Red line:} Slope of star formation rate surface density vs. size relation plotted against stellar mass. \textit{Blue line:} Mass outflow rate per unit dark matter halo mass plotted against stellar mass.}
+	\label{fig:outflow}
+	
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
 
 
 %\subsection{Radial dependencies}
 
 %Here we present the radial profiles in $H_{\alpha}$ luminosity for galaxies in our sample. In addition to each galaxy's total $H_{\alpha}$ luminosity, we can probe the properties at the physical radius corresponding to the radius of the fiber. Then, by binning in physical radius, we can construct the average $H_{\alpha}$ profile for galaxies in each mass bin.
 
-%Figure \ref{fig:grad_lum} shows this average $H\alpha$ luminosity profile among galaxies across the four mass bins. At small radii (below $\rm \log R =0.6$), the galaxies obey the same power law relationship across all four mass bins. Above that radius, the low mass points fall off of this power law relation while the high mass points continue along the power law. Physically, this means that low mass galaxies have very little $H\alpha$ at larger radii, while high mass galaxies have similar amounts at all radii.
+%Figure \ref{fig:grad_lum} shows this average $H\alpha$ luminosity profile among galaxies across the four mass bins. At small radii (below $\rm \log R =0.6$), the galaxies obey the same power law relationship across all six mass bins. Above that radius, the low mass points fall off of this power law relation while the high mass points continue along the power law. Physically, this means that low mass galaxies have very little $H\alpha$ at larger radii, while high mass galaxies have similar amounts at all radii.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -332,9 +383,11 @@ In Figure \ref{fig:HA_duty}, we plot $\frac{SRF_{cent}}{SFR}$ versus size offset
 
 An important prediction of the ``breathing'' model of feedback regulation in dwarf galaxies is that star formation rate is anticorrelated with galaxy size. In the model, stars are formed in the galactic center. The young stars then produce supernova feedback, which blows out the reservoir of gas from which the stars were formed, dampening star formation. As a result, galaxies are actively forming stars when they are at their smallest. During the subsequent blowout phase the galaxy will be more diffuse and, if the galactic wind drives radial transport, the galaxy will have a larger effective radius \citep{EB17}. 
 
-Our results give compelling evidence for this prediction below $10^{9.5} M_{\odot}$, suggesting that dwarf galaxies form stars in a ``breathing" mode. Importantly, this result combined with the lack of $H\alpha$ seen in galactic outskirts of dwarfs suggests that the energy produced during episodes of star formation couples to the stars in the galactic center and drives stellar radial transport.
+Our results give compelling evidence for this prediction below $10^{9.5} M_{\odot}$, suggesting that dwarf galaxies form stars in a ``breathing" mode. Furthermore, we see enhanced concentration in the interiors of smaller dwarf galaxies in the high-mass dwarf mass range, suggesting they are in compact active phases. Taken together, these provide evidence for a breathing mode of feedback-regulated star formation in high-mass dwarfs.
 
-There are, however, potential alternate explanations for the observed anti-correlation between H$\alpha$ emission and galaxy size. We will briefly discuss these. Firstly, we will consider the possibility that galaxies at different sizes do form stars at the same rate, but different amounts of $H\alpha$ emission escape the galaxy. This could be due to variations in the initial mass function (IMF), which sets the rates at which stars of different masses form. A top-heavy IMF, where more massive stars are formed relatively more frequently, would result in more ionizing radiation being formed per unit star formation. Our results could potentially be explained by smaller galaxies having more top-heavy IMFs. Whether or not the IMF varies between galaxies, or within galaxies, is an area of active research, with most results being consistent with a universal IMF \citep[e.g.,][]{Lee09,Bastian10}. 
+We can also examine the mass ranges at which we see effects with galaxy size to the mass ranges related to the interplay between feedback and potential well depth. In Figure \ref{fig:outflow}, we plot the slope of the $\frac{SFR_{cent}}{SFR}$ relation against stellar mass alongside the mass outflow rate normalized by halo mass. We see that both plots have inflection points around $10^{9} M_{\odot}-10^{9} M_{\odot}$, suggesting that this mass range is important for both plots. Indeed, the knee of the outflow rate relation lines up well with the mass range at which small galaxies no longer have an excess in concentration in their star formation, potentially indicating a mass scale at which the breathing model no longer operates.
+
+There are, however, potential alternate explanations for the observed effects we point out. We will briefly discuss these. Firstly, we will consider the possibility that galaxies at different sizes do form stars at the same rate, but different amounts of $H\alpha$ emission escape the galaxy. This could be due to variations in the initial mass function (IMF), which sets the rates at which stars of different masses form. A top-heavy IMF, where more massive stars are formed relatively more frequently, would result in more ionizing radiation being formed per unit star formation. Our results could potentially be explained by smaller galaxies having more top-heavy IMFs. Whether or not the IMF varies between galaxies, or within galaxies, is an area of active research, with most results being consistent with a universal IMF \citep[e.g.,][]{Lee09,Bastian10}. 
 
 An alternate possibility is that galaxies form stars at the same rate and as described by the same IMF at the same mass, but dust obscures star formation in such a way as to create a trend where there would otherwise be none. However, previous studies have shown that dust reddening increases with increasing stellar mass \citep{Garn10}, leaving it unlikely to drive an effect seen primarily at dwarf masses. We see a similar result in our data, with Balmer decrement increasing with increasing galaxy mass. Thus we conclude that dust extinction is unlikely to be the driver of the effects we see.
 

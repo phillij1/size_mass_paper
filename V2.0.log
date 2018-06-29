@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2018 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -319,101 +319,124 @@ LaTeX Warning: No positions in optional float specifier.
 <geometry_9_5.png, id=24, 526.96875pt x 508.90125pt>
 File: geometry_9_5.png Graphic file (type png)
  <use geometry_9_5.png>
-Package pdftex.def Info: geometry_9_5.png used on input line 154.
+Package pdftex.def Info: geometry_9_5.png used on input line 156.
 (pdftex.def)             Requested size: 245.26653pt x 236.86182pt.
 
 <alpha_regression_9_5.png, id=26, 578.16pt x 578.16pt>
 File: alpha_regression_9_5.png Graphic file (type png)
 
 <use alpha_regression_9_5.png>
-Package pdftex.def Info: alpha_regression_9_5.png used on input line 164.
+Package pdftex.def Info: alpha_regression_9_5.png used on input line 166.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
  <Lum_hist_9_5.png, id=27, 578.16pt x 433.62pt>
 File: Lum_hist_9_5.png Graphic file (type png)
 
 <use Lum_hist_9_5.png>
-Package pdftex.def Info: Lum_hist_9_5.png used on input line 174.
+Package pdftex.def Info: Lum_hist_9_5.png used on input line 176.
 (pdftex.def)             Requested size: 245.26653pt x 183.94531pt.
- <model.png, id=28, 792.9625pt x 687.56876pt>
+ <model.png, id=28, 786.94pt x 741.77126pt>
 File: model.png Graphic file (type png)
 
 <use model.png>
-Package pdftex.def Info: model.png used on input line 184.
-(pdftex.def)             Requested size: 343.37163pt x 297.7366pt.
+Package pdftex.def Info: model.png used on input line 186.
+(pdftex.def)             Requested size: 343.37163pt x 323.6526pt.
 
-Underfull \hbox (badness 3291) in paragraph at lines 212--213
-[]\OT1/cmr/m/n/10 In Fig-ure 7[], we plot the re-la-tion-ship be-tween
+Underfull \hbox (badness 3291) in paragraph at lines 216--217
+[]\OT1/cmr/m/n/10 In Fig-ure 9[], we plot the re-la-tion-ship be-tween
  []
 
-[3] <ha_lum_2x2_2A.png, id=36, 979.66pt x 938.50626pt>
+[3] <ha_lum_2x2_2A.png, id=37, 979.66pt x 938.50626pt>
 File: ha_lum_2x2_2A.png Graphic file (type png)
  <use ha_lum_2x2_2A.png>
-Package pdftex.def Info: ha_lum_2x2_2A.png used on input line 242.
+Package pdftex.def Info: ha_lum_2x2_2A.png used on input line 244.
 (pdftex.def)             Requested size: 367.89978pt x 352.4402pt.
 
-<mass_delta_sfr.png, id=37, 578.16pt x 578.16pt>
-File: mass_delta_sfr.png Graphic file (type png)
- <use mass_delta_sfr.png>
-Package pdftex.def Info: mass_delta_sfr.png used on input line 252.
-(pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
+<slope_sfr_size.png, id=38, 637.38126pt x 392.46625pt>
+File: slope_sfr_size.png Graphic file (type png)
 
-<ha_lum_2x2_excess.png, id=38, 998.73125pt x 938.50626pt>
-File: ha_lum_2x2_excess.png Graphic file (type png)
+<use slope_sfr_size.png>
+Package pdftex.def Info: slope_sfr_size.png used on input line 254.
+(pdftex.def)             Requested size: 245.26653pt x 151.01912pt.
 
-<use ha_lum_2x2_excess.png>
-Package pdftex.def Info: ha_lum_2x2_excess.png used on input line 263.
+<ha_lum_dens_2x2_2A.png, id=39, 983.675pt x 938.50626pt>
+File: ha_lum_dens_2x2_2A.png Graphic file (type png)
+
+<use ha_lum_dens_2x2_2A.png>
+Package pdftex.def Info: ha_lum_dens_2x2_2A.png used on input line 264.
+(pdftex.def)             Requested size: 367.89978pt x 351.00815pt.
+
+<slope_sfrdens_size.png, id=40, 649.42625pt x 417.56pt>
+File: slope_sfrdens_size.png Graphic file (type png)
+
+<use slope_sfrdens_size.png>
+Package pdftex.def Info: slope_sfrdens_size.png used on input line 274.
+(pdftex.def)             Requested size: 245.26653pt x 157.69324pt.
+
+<excess_2x3.png, id=41, 998.73125pt x 938.50626pt>
+File: excess_2x3.png Graphic file (type png)
+ <use excess_2x3.png>
+Package pdftex.def Info: excess_2x3.png used on input line 305.
 (pdftex.def)             Requested size: 367.89978pt x 345.7096pt.
 
-<mass_delta_cent.png, id=39, 551.05875pt x 505.89pt>
-File: mass_delta_cent.png Graphic file (type png)
- <use mass_delta_cent.png>
-Package pdftex.def Info: mass_delta_cent.png used on input line 273.
-(pdftex.def)             Requested size: 245.26653pt x 225.16278pt.
+<slope_cent_excess.png, id=42, 652.4375pt x 392.46625pt>
+File: slope_cent_excess.png Graphic file (type png)
 
-<GMM.png, id=40, 551.05875pt x 501.875pt>
+<use slope_cent_excess.png>
+Package pdftex.def Info: slope_cent_excess.png used on input line 315.
+(pdftex.def)             Requested size: 245.26653pt x 147.53976pt.
+ <GMM.png, id=43, 551.05875pt x 501.875pt>
 File: GMM.png Graphic file (type png)
- <use GMM.png>
-Package pdftex.def Info: GMM.png used on input line 285.
+
+<use GMM.png>
+Package pdftex.def Info: GMM.png used on input line 325.
 (pdftex.def)             Requested size: 245.26653pt x 223.37578pt.
+ <outflowrate_slope2.png, id=44, 592.2125pt x 544.0325pt>
+File: outflowrate_slope2.png Graphic file (type png)
+
+<use outflowrate_slope2.png>
+Package pdftex.def Info: outflowrate_slope2.png used on input line 335.
+(pdftex.def)             Requested size: 245.26653pt x 225.31271pt.
  [4 <./geometry_9_5.png> <./alpha_regression_9_5.png>] [5 <./Lum_hist_9_5.png> 
-<./model.png>] [6 <./ha_lum_2x2_2A.png> <./mass_delta_sfr.png>] [7 <./ha_lum_2x
-2_excess.png> <./mass_delta_cent.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 363--364
+<./model.png>] [6 <./ha_lum_2x2_2A.png> <./slope_sfr_size.png>] [7 <./ha_lum_de
+ns_2x2_2A.png> <./slope_sfrdens_size.png>] [8 <./excess_2x3.png> <./slope_cent_
+excess.png>]
+Underfull \hbox (badness 1430) in paragraph at lines 416--417
 []\OT1/cmr/m/n/10 The burst-driven trans-port model of galaxy self-
  []
 
-[8 <./GMM.png>] <111_dwarf_8_5_size_SF_r.png, id=67, 722.7pt x 722.7pt>
+[9 <./GMM.png> <./outflowrate_slope2.png>]
+<111_dwarf_8_5_size_SF_r.png, id=76, 722.7pt x 722.7pt>
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_8_5_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 374.
+Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 427.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 386.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 439.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 439.
 
-Underfull \hbox (badness 1210) in paragraph at lines 390--391
+Underfull \hbox (badness 1210) in paragraph at lines 443--444
  \OT1/cmr/m/n/10 for-ma-tion, where dense star for-ma-tion in the
  []
 
-(./V2.0.bbl) [9] [10 <./111_dwarf_8_5_size_SF_r.png>] (./V2.0.aux)
+(./V2.0.bbl [10]) [11 <./111_dwarf_8_5_size_SF_r.png>] (./V2.0.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4623 strings out of 493014
- 62180 string characters out of 6133351
- 198891 words of memory out of 5000000
- 8088 multiletter control sequences out of 15000+600000
+ 4644 strings out of 493014
+ 62629 string characters out of 6133351
+ 155588 words of memory out of 5000000
+ 8106 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,1650b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,28p,1650b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -434,10 +457,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on V2.0.pdf (10 pages, 765395 bytes).
+Output written on V2.0.pdf (11 pages, 1014315 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

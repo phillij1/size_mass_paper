@@ -12,54 +12,54 @@ Repeated entry---line 306 of file biblio.bib
  : @article{Kauffmann03
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 915 of file biblio.bib
+Repeated entry---line 929 of file biblio.bib
  : @article{Governato12
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1553 of file biblio.bib
+Repeated entry---line 1580 of file biblio.bib
  : @article{brinchmann04
  :                      ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 58 entries,
+You've used 59 entries,
             3085 wiz_defined-function locations,
-            1105 strings with 20809 characters,
-and the built_in function-call counts, 31074 in all, are:
-= -- 2440
-> -- 2672
-< -- 11
-+ -- 903
-- -- 982
-* -- 2845
-:= -- 5968
-add.period$ -- 58
-call.type$ -- 58
-change.case$ -- 432
-chr.to.int$ -- 57
-cite$ -- 58
-duplicate$ -- 1095
-empty$ -- 1626
-format.name$ -- 1034
-if$ -- 6029
+            1114 strings with 20953 characters,
+and the built_in function-call counts, 31420 in all, are:
+= -- 2471
+> -- 2684
+< -- 12
++ -- 907
+- -- 985
+* -- 2867
+:= -- 6035
+add.period$ -- 59
+call.type$ -- 59
+change.case$ -- 437
+chr.to.int$ -- 58
+cite$ -- 59
+duplicate$ -- 1112
+empty$ -- 1654
+format.name$ -- 1038
+if$ -- 6100
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 178
-num.names$ -- 232
-pop$ -- 471
+missing$ -- 59
+newline$ -- 181
+num.names$ -- 236
+pop$ -- 475
 preamble$ -- 1
-purify$ -- 432
+purify$ -- 437
 quote$ -- 0
-skip$ -- 890
+skip$ -- 906
 stack$ -- 0
-substring$ -- 1214
+substring$ -- 1235
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 522
+type$ -- 531
 warning$ -- 0
-while$ -- 221
+while$ -- 225
 width$ -- 0
-write$ -- 583
+write$ -- 593
 (There were 4 error messages)
