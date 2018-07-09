@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2018 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUL 2018 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,7 +309,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: Command \r invalid in math mode on input line 110.
 
 
-LaTeX Warning: Reference `tab' on page 2 undefined on input line 122.
+LaTeX Warning: Reference `tab:info' on page 2 undefined on input line 110.
 
 [2]
 
@@ -430,10 +430,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4644 strings out of 493014
- 62629 string characters out of 6133351
- 155588 words of memory out of 5000000
- 8106 multiletter control sequences out of 15000+600000
+ 4643 strings out of 493014
+ 62627 string characters out of 6133351
+ 155593 words of memory out of 5000000
+ 8105 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,28p,1650b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -457,7 +457,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on V2.0.pdf (11 pages, 1014315 bytes).
+Output written on V2.0.pdf (11 pages, 1017206 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
