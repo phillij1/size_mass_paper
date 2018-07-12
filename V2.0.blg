@@ -16,50 +16,50 @@ Repeated entry---line 929 of file biblio.bib
  : @article{Governato12
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1580 of file biblio.bib
+Repeated entry---line 1595 of file biblio.bib
  : @article{brinchmann04
  :                      ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 59 entries,
+You've used 60 entries,
             3085 wiz_defined-function locations,
-            1114 strings with 20953 characters,
-and the built_in function-call counts, 31420 in all, are:
-= -- 2471
-> -- 2684
+            1120 strings with 21189 characters,
+and the built_in function-call counts, 31940 in all, are:
+= -- 2514
+> -- 2730
 < -- 12
-+ -- 907
-- -- 985
-* -- 2867
-:= -- 6035
-add.period$ -- 59
-call.type$ -- 59
-change.case$ -- 437
-chr.to.int$ -- 58
-cite$ -- 59
-duplicate$ -- 1112
-empty$ -- 1654
-format.name$ -- 1038
-if$ -- 6100
++ -- 923
+- -- 1004
+* -- 2914
+:= -- 6134
+add.period$ -- 60
+call.type$ -- 60
+change.case$ -- 446
+chr.to.int$ -- 59
+cite$ -- 60
+duplicate$ -- 1132
+empty$ -- 1681
+format.name$ -- 1056
+if$ -- 6199
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 59
-newline$ -- 181
-num.names$ -- 236
-pop$ -- 475
+missing$ -- 60
+newline$ -- 184
+num.names$ -- 240
+pop$ -- 486
 preamble$ -- 1
-purify$ -- 437
+purify$ -- 446
 quote$ -- 0
-skip$ -- 906
+skip$ -- 918
 stack$ -- 0
-substring$ -- 1235
+substring$ -- 1246
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 531
+type$ -- 540
 warning$ -- 0
-while$ -- 225
+while$ -- 228
 width$ -- 0
-write$ -- 593
+write$ -- 603
 (There were 4 error messages)
