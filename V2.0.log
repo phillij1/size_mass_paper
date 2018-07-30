@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUL 2018 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JUL 2018 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,131 +308,147 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: Command \r invalid in math mode on input line 110.
 
-[2]
+[2] <size_sfr_linear.png, id=23, 1156.32pt x 1156.32pt>
+File: size_sfr_linear.png Graphic file (type png)
+
+<use size_sfr_linear.png>
+Package pdftex.def Info: size_sfr_linear.png used on input line 127.
+(pdftex.def)             Requested size: 490.53305pt x 490.52084pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 131.
+               Default added (so using `tbp') on input line 142.
 
-<geometry_9_5.png, id=23, 526.96875pt x 508.90125pt>
+<geometry_9_5.png, id=25, 526.96875pt x 508.90125pt>
 File: geometry_9_5.png Graphic file (type png)
  <use geometry_9_5.png>
-Package pdftex.def Info: geometry_9_5.png used on input line 155.
-(pdftex.def)             Requested size: 245.26653pt x 236.86182pt.
+Package pdftex.def Info: geometry_9_5.png used on input line 166.
+(pdftex.def)             Requested size: 367.89978pt x 355.30438pt.
 
-<alpha_regression_9_5.png, id=25, 578.16pt x 578.16pt>
+<alpha_regression_9_5.png, id=26, 578.16pt x 578.16pt>
 File: alpha_regression_9_5.png Graphic file (type png)
 
 <use alpha_regression_9_5.png>
-Package pdftex.def Info: alpha_regression_9_5.png used on input line 165.
+Package pdftex.def Info: alpha_regression_9_5.png used on input line 176.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
- <Lum_hist_9_5.png, id=26, 578.16pt x 433.62pt>
+ <Lum_hist_9_5.png, id=27, 578.16pt x 433.62pt>
 File: Lum_hist_9_5.png Graphic file (type png)
 
 <use Lum_hist_9_5.png>
-Package pdftex.def Info: Lum_hist_9_5.png used on input line 175.
+Package pdftex.def Info: Lum_hist_9_5.png used on input line 186.
 (pdftex.def)             Requested size: 245.26653pt x 183.94531pt.
- <model.png, id=27, 786.94pt x 741.77126pt>
+ <model.png, id=28, 786.94pt x 741.77126pt>
 File: model.png Graphic file (type png)
 
 <use model.png>
-Package pdftex.def Info: model.png used on input line 185.
+Package pdftex.def Info: model.png used on input line 196.
 (pdftex.def)             Requested size: 343.37163pt x 323.6526pt.
 
-Underfull \hbox (badness 3291) in paragraph at lines 213--214
-[]\OT1/cmr/m/n/10 In Fig-ure 9[], we plot the re-la-tion-ship be-tween
+Underfull \hbox (badness 2173) in paragraph at lines 224--225
+[]\OT1/cmr/m/n/10 In Fig-ure 10[], we plot the re-la-tion-ship be-tween
  []
 
-[3] <ha_lum_2x2_2A.png, id=36, 979.66pt x 938.50626pt>
+[3] <ha_lum_2x2_2A.png, id=37, 979.66pt x 938.50626pt>
 File: ha_lum_2x2_2A.png Graphic file (type png)
  <use ha_lum_2x2_2A.png>
-Package pdftex.def Info: ha_lum_2x2_2A.png used on input line 243.
+Package pdftex.def Info: ha_lum_2x2_2A.png used on input line 254.
 (pdftex.def)             Requested size: 367.89978pt x 352.4402pt.
 
-<slope_sfr_size.png, id=37, 637.38126pt x 392.46625pt>
+<slope_sfr_size.png, id=38, 637.38126pt x 392.46625pt>
 File: slope_sfr_size.png Graphic file (type png)
 
 <use slope_sfr_size.png>
-Package pdftex.def Info: slope_sfr_size.png used on input line 253.
+Package pdftex.def Info: slope_sfr_size.png used on input line 264.
 (pdftex.def)             Requested size: 245.26653pt x 151.01912pt.
 
-<ha_lum_dens_2x2_2A.png, id=38, 983.675pt x 938.50626pt>
+<ha_lum_dens_2x2_2A.png, id=39, 983.675pt x 938.50626pt>
 File: ha_lum_dens_2x2_2A.png Graphic file (type png)
 
 <use ha_lum_dens_2x2_2A.png>
-Package pdftex.def Info: ha_lum_dens_2x2_2A.png used on input line 263.
+Package pdftex.def Info: ha_lum_dens_2x2_2A.png used on input line 274.
 (pdftex.def)             Requested size: 367.89978pt x 351.00815pt.
 
-<slope_sfrdens_size.png, id=39, 649.42625pt x 417.56pt>
+<slope_sfrdens_size.png, id=40, 649.42625pt x 417.56pt>
 File: slope_sfrdens_size.png Graphic file (type png)
 
 <use slope_sfrdens_size.png>
-Package pdftex.def Info: slope_sfrdens_size.png used on input line 273.
+Package pdftex.def Info: slope_sfrdens_size.png used on input line 284.
 (pdftex.def)             Requested size: 245.26653pt x 157.69324pt.
 
-<excess_2x3.png, id=40, 998.73125pt x 938.50626pt>
+<excess_2x3.png, id=41, 998.73125pt x 938.50626pt>
 File: excess_2x3.png Graphic file (type png)
  <use excess_2x3.png>
-Package pdftex.def Info: excess_2x3.png used on input line 304.
+Package pdftex.def Info: excess_2x3.png used on input line 315.
 (pdftex.def)             Requested size: 367.89978pt x 345.7096pt.
 
-<slope_cent_excess.png, id=41, 652.4375pt x 392.46625pt>
+<slope_cent_excess.png, id=42, 652.4375pt x 392.46625pt>
 File: slope_cent_excess.png Graphic file (type png)
 
 <use slope_cent_excess.png>
-Package pdftex.def Info: slope_cent_excess.png used on input line 314.
+Package pdftex.def Info: slope_cent_excess.png used on input line 325.
 (pdftex.def)             Requested size: 245.26653pt x 147.53976pt.
 
-<cent_sfr_bins.png, id=42, 992.70876pt x 938.50626pt>
+<cent_sfr_bins.png, id=43, 992.70876pt x 938.50626pt>
 File: cent_sfr_bins.png Graphic file (type png)
  <use cent_sfr_bins.png>
-Package pdftex.def Info: cent_sfr_bins.png used on input line 324.
+Package pdftex.def Info: cent_sfr_bins.png used on input line 335.
 (pdftex.def)             Requested size: 367.89978pt x 347.8147pt.
 
-<cent_sfr_slopes.png, id=43, 662.475pt x 428.60126pt>
+<cent_sfr_slopes.png, id=44, 662.475pt x 428.60126pt>
 File: cent_sfr_slopes.png Graphic file (type png)
 
 <use cent_sfr_slopes.png>
-Package pdftex.def Info: cent_sfr_slopes.png used on input line 334.
+Package pdftex.def Info: cent_sfr_slopes.png used on input line 345.
 (pdftex.def)             Requested size: 245.26653pt x 158.67807pt.
- <GMM.png, id=44, 551.05875pt x 501.875pt>
+ <GMM.png, id=45, 551.05875pt x 501.875pt>
 File: GMM.png Graphic file (type png)
 
 <use GMM.png>
-Package pdftex.def Info: GMM.png used on input line 346.
+Package pdftex.def Info: GMM.png used on input line 357.
 (pdftex.def)             Requested size: 245.26653pt x 223.37578pt.
- [4 <./geometry_9_5.png> <./alpha_regression_9_5.png>] [5 <./Lum_hist_9_5.png> 
-<./model.png>] [6 <./ha_lum_2x2_2A.png> <./slope_sfr_size.png>]
-[7 <./ha_lum_dens_2x2_2A.png> <./slope_sfrdens_size.png>] [8 <./excess_2x3.png>
- <./slope_cent_excess.png>] [9 <./cent_sfr_bins.png> <./cent_sfr_slopes.png> <.
-/GMM.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 412--413
+ [4 <./size_sfr_linear.png>] [5 <./geometry_9_5.png> <./alpha_regression_9_5.pn
+g>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 392.
+
+[6 <./Lum_hist_9_5.png> <./model.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 392.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[7 <./ha_lum_2x2_2A.png> <./slope_sfr_size.png>] [8 <./ha_lum_dens_2x2_2A.png> 
+<./slope_sfrdens_size.png>] [9 <./excess_2x3.png> <./slope_cent_excess.png>]
+[10 <./cent_sfr_bins.png> <./cent_sfr_slopes.png> <./GMM.png>]
+Underfull \hbox (badness 1430) in paragraph at lines 423--424
 []\OT1/cmr/m/n/10 The burst-driven trans-port model of galaxy self-
  []
 
-<111_dwarf_8_5_size_SF_r.png, id=77, 722.7pt x 722.7pt>
+<111_dwarf_8_5_size_SF_r.png, id=82, 722.7pt x 722.7pt>
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_8_5_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 425.
+Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 436.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 437.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 448.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 437.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 448.
  (./V2.0.bbl
-[10] [11 <./111_dwarf_8_5_size_SF_r.png>]) [12] (./V2.0.aux) ) 
+[11] [12 <./111_dwarf_8_5_size_SF_r.png>]) [13] (./V2.0.aux) ) 
 Here is how much of TeX's memory you used:
- 4651 strings out of 493014
- 62771 string characters out of 6133351
- 152040 words of memory out of 5000000
- 8113 multiletter control sequences out of 15000+600000
+ 4658 strings out of 493014
+ 62908 string characters out of 6133351
+ 152861 words of memory out of 5000000
+ 8119 multiletter control sequences out of 15000+600000
  13176 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,1804b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,28p,1804b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive
@@ -453,10 +469,10 @@ public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti8.pfb>
-Output written on V2.0.pdf (12 pages, 1043220 bytes).
+Output written on V2.0.pdf (13 pages, 1084048 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 154 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
