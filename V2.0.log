@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 AUG 2018 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2018 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,83 +344,83 @@ File: model.png Graphic file (type png)
 Package pdftex.def Info: model.png used on input line 195.
 (pdftex.def)             Requested size: 343.37163pt x 323.6526pt.
 
-Underfull \hbox (badness 2173) in paragraph at lines 223--224
+Underfull \hbox (badness 2173) in paragraph at lines 221--222
 []\OT1/cmr/m/n/10 In Fig-ure 10[], we plot the re-la-tion-ship be-tween
  []
 
 [3] <ha_lum.png, id=37, 538.01pt x 500.87125pt>
 File: ha_lum.png Graphic file (type png)
  <use ha_lum.png>
-Package pdftex.def Info: ha_lum.png used on input line 253.
+Package pdftex.def Info: ha_lum.png used on input line 251.
 (pdftex.def)             Requested size: 367.89978pt x 342.50624pt.
 
 <slope_sfr_size.png, id=38, 637.38126pt x 392.46625pt>
 File: slope_sfr_size.png Graphic file (type png)
 
 <use slope_sfr_size.png>
-Package pdftex.def Info: slope_sfr_size.png used on input line 263.
+Package pdftex.def Info: slope_sfr_size.png used on input line 261.
 (pdftex.def)             Requested size: 245.26653pt x 151.01912pt.
  <ha_lum_dens.png, id=39, 530.98375pt x 500.87125pt>
 File: ha_lum_dens.png Graphic file (type png)
 
 <use ha_lum_dens.png>
-Package pdftex.def Info: ha_lum_dens.png used on input line 273.
+Package pdftex.def Info: ha_lum_dens.png used on input line 271.
 (pdftex.def)             Requested size: 367.89978pt x 347.03835pt.
  <slope_sfrdens_size.png, id=40, 633.36626pt x 417.56pt>
 File: slope_sfrdens_size.png Graphic file (type png)
 
 <use slope_sfrdens_size.png>
-Package pdftex.def Info: slope_sfrdens_size.png used on input line 283.
+Package pdftex.def Info: slope_sfrdens_size.png used on input line 281.
 (pdftex.def)             Requested size: 245.26653pt x 161.6945pt.
  <excess.png, id=41, 551.05875pt x 500.87125pt>
 File: excess.png Graphic file (type png)
 
 <use excess.png>
-Package pdftex.def Info: excess.png used on input line 314.
+Package pdftex.def Info: excess.png used on input line 312.
 (pdftex.def)             Requested size: 367.89978pt x 334.40501pt.
  <slope_cent_excess.png, id=42, 652.4375pt x 392.46625pt>
 File: slope_cent_excess.png Graphic file (type png)
 
 <use slope_cent_excess.png>
-Package pdftex.def Info: slope_cent_excess.png used on input line 324.
+Package pdftex.def Info: slope_cent_excess.png used on input line 322.
 (pdftex.def)             Requested size: 245.26653pt x 147.53976pt.
  <excess_sfr.png, id=43, 544.0325pt x 500.87125pt>
 File: excess_sfr.png Graphic file (type png)
 
 <use excess_sfr.png>
-Package pdftex.def Info: excess_sfr.png used on input line 334.
+Package pdftex.def Info: excess_sfr.png used on input line 332.
 (pdftex.def)             Requested size: 367.89978pt x 338.73076pt.
  <cent_sfr_slopes.png, id=44, 662.475pt x 428.60126pt>
 File: cent_sfr_slopes.png Graphic file (type png)
 
 <use cent_sfr_slopes.png>
-Package pdftex.def Info: cent_sfr_slopes.png used on input line 344.
+Package pdftex.def Info: cent_sfr_slopes.png used on input line 342.
 (pdftex.def)             Requested size: 245.26653pt x 158.67807pt.
  <GMM.png, id=45, 551.05875pt x 501.875pt>
 File: GMM.png Graphic file (type png)
 
 <use GMM.png>
-Package pdftex.def Info: GMM.png used on input line 356.
+Package pdftex.def Info: GMM.png used on input line 354.
 (pdftex.def)             Requested size: 245.26653pt x 223.37578pt.
  [4 <./size_sfr_linear.png>] [5 <./geometry_9_5.png> <./alpha_regression_9_5.pn
 g>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 391.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 389.
 
 [6 <./Lum_hist_9_5.png> <./model.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 391.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 389.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-LaTeX Warning: Reference `fig:excess' on page 7 undefined on input line 394.
+LaTeX Warning: Reference `fig:excess' on page 7 undefined on input line 392.
 
 [7 <./ha_lum.png> <./slope_sfr_size.png>] [8 <./ha_lum_dens.png> <./slope_sfrde
 ns_size.png>] [9 <./excess.png> <./slope_cent_excess.png>] [10 <./excess_sfr.pn
 g> <./cent_sfr_slopes.png> <./GMM.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 422--423
+Underfull \hbox (badness 1430) in paragraph at lines 420--421
 []\OT1/cmr/m/n/10 The burst-driven trans-port model of galaxy self-
  []
 
@@ -428,16 +428,16 @@ Underfull \hbox (badness 1430) in paragraph at lines 422--423
 File: 111_dwarf_8_5_size_SF_r.png Graphic file (type png)
 
 <use 111_dwarf_8_5_size_SF_r.png>
-Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 435.
+Package pdftex.def Info: 111_dwarf_8_5_size_SF_r.png used on input line 433.
 (pdftex.def)             Requested size: 367.89978pt x 367.89944pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 447.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 445.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 447.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 445.
  (./V2.0.bbl
 [11] [12 <./111_dwarf_8_5_size_SF_r.png>]) [13] (./V2.0.aux)
 
@@ -447,7 +447,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4661 strings out of 493014
  62836 string characters out of 6133351
- 153969 words of memory out of 5000000
+ 152904 words of memory out of 5000000
  8121 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -472,7 +472,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on V2.0.pdf (13 pages, 711449 bytes).
+Output written on V2.0.pdf (13 pages, 711180 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
